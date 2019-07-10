@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "PhraseApp"
-  s.version             = "1.2.0"
+  s.version             = "1.2.0-beta"
   s.summary             = "iOS SDK for PhraseApp"
   s.homepage            = "https://phraseapp.com"
   s.license             = { :type => 'Commercial', :file => 'LICENSE.md' }
