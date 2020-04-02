@@ -1,4 +1,4 @@
-All components of this product are Copyright (c) 2011-2019 Dynport GmbH.  All rights reserved.
+All components of this product are Copyright (c) 2011-2020 Dynport GmbH.  All rights reserved.
 
 Some inventions disclosed in this source code may be claimed within patents owned or patent applications filed by Dynport GmbH or third parties.
 
