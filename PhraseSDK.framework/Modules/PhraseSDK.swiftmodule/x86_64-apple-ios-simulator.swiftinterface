@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-compiler-version: Apple Swift version 5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhraseSDK
 import Foundation
 @_exported import PhraseSDK
@@ -13,10 +13,20 @@ public enum PhraseSetupError : PhraseSDK.PhraseError {
   case missingEnvironmentSecret
   case appVersionNotSemantic(reason: Swift.String)
 }
+extension PhraseSetupError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 public enum PhraseInternalError : PhraseSDK.PhraseError {
   case bundleNotAvailable
   case apiUrlError
   case unknownError(underlyingError: Swift.Error)
+}
+extension PhraseInternalError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
 }
 public enum PhraseNetworkError : PhraseSDK.PhraseError {
   case connectionError(underlyingError: Swift.Error)
@@ -25,9 +35,19 @@ public enum PhraseNetworkError : PhraseSDK.PhraseError {
   case responseStatusInvalid(code: Swift.Int, message: Swift.String)
   case responseDataInvalid
 }
+extension PhraseNetworkError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 public struct PhraseUpdateError : PhraseSDK.PhraseError {
   public let underlyingErrors: [PhraseSDK.PhraseError]
   public var last: PhraseSDK.PhraseError {
+    get
+  }
+}
+extension PhraseUpdateError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
     get
   }
 }
@@ -39,15 +59,22 @@ public typealias PhraseAppError = PhraseSDK.PhraseError
 public typealias PhraseAppBundle = Foundation.Bundle
 @available(*, unavailable)
 public typealias PhraseAppTranslationResult = Swift.Result
-public class Phrase {
-  public static let shared: PhraseSDK.Phrase
-  public var debugMode: Swift.Bool
-  public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double = 10.0)
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Phrase : ObjectiveC.NSObject {
+  @objc public static let shared: PhraseSDK.Phrase
+  @objc public var debugMode: Swift.Bool
+  @objc public var sdkVersion: Swift.String {
+    get
+  }
+  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double = 10.0)
+  @available(swift, obsoleted: 1.0)
+  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String)
   @objc deinit
 }
 extension Phrase {
   public func updateTranslations(completionHandler: ((Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> Swift.Void)? = nil) throws
+  @available(swift, obsoleted: 1.0)
+  @objc dynamic public func updateTranslations(completionHandler: ((Swift.Bool, Swift.Error?) -> Swift.Void)?)
 }
 extension Phrase {
-  public func localizedString(forKey key: Swift.String, value: Swift.String?, table tableName: Swift.String?) -> Swift.String
+  @objc dynamic public func localizedString(forKey key: Swift.String, value: Swift.String?, table tableName: Swift.String?) -> Swift.String
 }
