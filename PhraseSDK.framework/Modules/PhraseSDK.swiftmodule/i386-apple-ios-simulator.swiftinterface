@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)
+// swift-compiler-version: Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
 // swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhraseSDK
 import Foundation
 @_exported import PhraseSDK
@@ -60,14 +60,21 @@ public typealias PhraseAppBundle = Foundation.Bundle
 @available(*, unavailable)
 public typealias PhraseAppTranslationResult = Swift.Result
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Phrase : ObjectiveC.NSObject {
+  @objc public var localeOverride: Swift.String? {
+    get
+  }
   @objc public static let shared: PhraseSDK.Phrase
   @objc public var debugMode: Swift.Bool
   @objc public var sdkVersion: Swift.String {
     get
   }
-  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double = 10.0)
+  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double = 10.0, localeOverride: Swift.String? = nil)
   @available(swift, obsoleted: 1.0)
   @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String)
+  @available(swift, obsoleted: 1.0)
+  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String, localeOverride: Swift.String)
+  @available(swift, obsoleted: 1.0)
+  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double)
   @objc deinit
 }
 extension Phrase {
