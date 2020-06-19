@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhraseSDK
 import Foundation
 @_exported import PhraseSDK
@@ -21,6 +21,7 @@ extension PhraseSetupError : Foundation.LocalizedError {
 public enum PhraseInternalError : PhraseSDK.PhraseError {
   case bundleNotAvailable
   case apiUrlError
+  case apiMissingReleaseVersion
   case unknownError(underlyingError: Swift.Error)
 }
 extension PhraseInternalError : Foundation.LocalizedError {
@@ -51,14 +52,6 @@ extension PhraseUpdateError : Foundation.LocalizedError {
     get
   }
 }
-@available(*, unavailable, renamed: "Phrase")
-public typealias PhraseApp = PhraseSDK.Phrase
-@available(*, unavailable, renamed: "PhraseError")
-public typealias PhraseAppError = PhraseSDK.PhraseError
-@available(*, unavailable)
-public typealias PhraseAppBundle = Foundation.Bundle
-@available(*, unavailable)
-public typealias PhraseAppTranslationResult = Swift.Result
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Phrase : ObjectiveC.NSObject {
   @objc public var localeOverride: Swift.String? {
     get
