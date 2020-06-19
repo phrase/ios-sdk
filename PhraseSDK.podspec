@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name                = "PhraseSDK"
-  s.version             = "2.2.0"
+  s.version             = "2.2.1"
   s.summary             = "iOS SDK for Phrase"
   s.homepage            = "https://phrase.com"
   s.license             = { :type => 'Commercial', :file => 'LICENSE.md' }
   s.author              = { "Dynport GmbH" => "support@phrase.com" }
-  s.source              = { :git => "https://github.com/phrase/ios-sdk.git", :tag => "2.2.0" }
+  s.source              = { :git => "https://github.com/phrase/ios-sdk.git", :tag => "2.2.1" }
   s.platform            = :ios, '9.0'
   s.frameworks          = 'Foundation'
   s.preserve_paths      = 'PhraseSDK.framework'
