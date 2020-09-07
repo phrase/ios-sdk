@@ -219,7 +219,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC9PhraseSDK6Phrase")
 @interface Phrase : NSObject
 /// The provided override for current locale.
-@property (nonatomic, readonly, copy) NSString * _Nullable localeOverride;
+/// Can be set either by <code>PhraseApp.shared.setup()</code> or by using this property.
+/// Must be set before calling <code>PhraseApp.shared.updateTranslations()</code>.
+@property (nonatomic, copy) NSString * _Nullable localeOverride;
+/// The provided override for the App version used to return a release which matches
+/// the release constraints for the min and max version. Must be semantic.
+/// Can be set either by <code>PhraseApp.shared.setup()</code> or by using this property.
+/// Must be set before calling <code>PhraseApp.shared.updateTranslations()</code>.
+@property (nonatomic, copy) NSString * _Nullable appVersionOverride;
 /// Hidden initialization method for shared instance.
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -259,53 +266,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 ///
 /// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
 ///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout localeOverride:(NSString * _Nullable)localeOverride;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
+/// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
 ///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
-///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-/// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret localeOverride:(NSString * _Nonnull)localeOverride;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
-///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-/// \param timeout The timeout in seconds.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout;
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout localeOverride:(NSString * _Nullable)localeOverride appVersionOverride:(NSString * _Nullable)appVersionOverride;
 @end
 
 
@@ -363,6 +326,72 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 
 
 
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret localeOverride:(NSString * _Nonnull)localeOverride;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param timeout The timeout in seconds.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret appVersionOverride:(NSString * _Nonnull)appVersionOverride;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -585,7 +614,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC9PhraseSDK6Phrase")
 @interface Phrase : NSObject
 /// The provided override for current locale.
-@property (nonatomic, readonly, copy) NSString * _Nullable localeOverride;
+/// Can be set either by <code>PhraseApp.shared.setup()</code> or by using this property.
+/// Must be set before calling <code>PhraseApp.shared.updateTranslations()</code>.
+@property (nonatomic, copy) NSString * _Nullable localeOverride;
+/// The provided override for the App version used to return a release which matches
+/// the release constraints for the min and max version. Must be semantic.
+/// Can be set either by <code>PhraseApp.shared.setup()</code> or by using this property.
+/// Must be set before calling <code>PhraseApp.shared.updateTranslations()</code>.
+@property (nonatomic, copy) NSString * _Nullable appVersionOverride;
 /// Hidden initialization method for shared instance.
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -625,53 +661,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 ///
 /// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
 ///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout localeOverride:(NSString * _Nullable)localeOverride;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
+/// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
 ///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
-///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-/// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret localeOverride:(NSString * _Nonnull)localeOverride;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
-///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-/// \param timeout The timeout in seconds.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout;
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout localeOverride:(NSString * _Nullable)localeOverride appVersionOverride:(NSString * _Nullable)appVersionOverride;
 @end
 
 
@@ -729,6 +721,72 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 
 
 
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret localeOverride:(NSString * _Nonnull)localeOverride;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param timeout The timeout in seconds.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret appVersionOverride:(NSString * _Nonnull)appVersionOverride;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -955,7 +1013,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC9PhraseSDK6Phrase")
 @interface Phrase : NSObject
 /// The provided override for current locale.
-@property (nonatomic, readonly, copy) NSString * _Nullable localeOverride;
+/// Can be set either by <code>PhraseApp.shared.setup()</code> or by using this property.
+/// Must be set before calling <code>PhraseApp.shared.updateTranslations()</code>.
+@property (nonatomic, copy) NSString * _Nullable localeOverride;
+/// The provided override for the App version used to return a release which matches
+/// the release constraints for the min and max version. Must be semantic.
+/// Can be set either by <code>PhraseApp.shared.setup()</code> or by using this property.
+/// Must be set before calling <code>PhraseApp.shared.updateTranslations()</code>.
+@property (nonatomic, copy) NSString * _Nullable appVersionOverride;
 /// Hidden initialization method for shared instance.
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -995,53 +1060,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 ///
 /// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
 ///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout localeOverride:(NSString * _Nullable)localeOverride;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
+/// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
 ///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
-///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-/// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret localeOverride:(NSString * _Nonnull)localeOverride;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
-///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-/// \param timeout The timeout in seconds.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout;
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout localeOverride:(NSString * _Nullable)localeOverride appVersionOverride:(NSString * _Nullable)appVersionOverride;
 @end
 
 
@@ -1099,6 +1120,72 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 
 
 
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret localeOverride:(NSString * _Nonnull)localeOverride;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param timeout The timeout in seconds.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret appVersionOverride:(NSString * _Nonnull)appVersionOverride;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -1321,7 +1408,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC9PhraseSDK6Phrase")
 @interface Phrase : NSObject
 /// The provided override for current locale.
-@property (nonatomic, readonly, copy) NSString * _Nullable localeOverride;
+/// Can be set either by <code>PhraseApp.shared.setup()</code> or by using this property.
+/// Must be set before calling <code>PhraseApp.shared.updateTranslations()</code>.
+@property (nonatomic, copy) NSString * _Nullable localeOverride;
+/// The provided override for the App version used to return a release which matches
+/// the release constraints for the min and max version. Must be semantic.
+/// Can be set either by <code>PhraseApp.shared.setup()</code> or by using this property.
+/// Must be set before calling <code>PhraseApp.shared.updateTranslations()</code>.
+@property (nonatomic, copy) NSString * _Nullable appVersionOverride;
 /// Hidden initialization method for shared instance.
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -1361,53 +1455,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 ///
 /// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
 ///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout localeOverride:(NSString * _Nullable)localeOverride;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
+/// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
 ///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
-///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-/// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret localeOverride:(NSString * _Nonnull)localeOverride;
-/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
-/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
-/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
-/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
-/// note:
-///
-/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
-/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
-/// \param distributionID Your distribution ID.
-///
-/// \param environmentSecret Your environment secret.
-/// Use your development or production secret depending on your type of release.
-///
-/// \param timeout The timeout in seconds.
-///
-- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout;
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout localeOverride:(NSString * _Nullable)localeOverride appVersionOverride:(NSString * _Nullable)appVersionOverride;
 @end
 
 
@@ -1465,6 +1515,72 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 
 
 
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param localeOverride Set to override locale detection. E.g. <code>en</code>.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret localeOverride:(NSString * _Nonnull)localeOverride;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param timeout The timeout in seconds.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret timeout:(double)timeout;
+/// Method to setup the Phrase SDK. Please use this to configure the SDK before using it.
+/// After setup simply call <code>PhraseApp.shared.updateTranslations()</code> to update
+/// your localization files. We recommend to invoke both functions within your <code>AppDelegate</code>
+/// in the <code>application(_:didFinishLaunchingWithOptions:)</code>  method.
+/// note:
+///
+/// Head over to the <a href="https://help.phrase.com/help/phrase-over-the-air-introduction">Phrase Help Center</a>
+/// to learn more about the Phrase Over the Air (OTA) SDK and how to use it in your apps.
+/// \param distributionID Your distribution ID.
+///
+/// \param environmentSecret Your environment secret.
+/// Use your development or production secret depending on your type of release.
+///
+/// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
+///
+- (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret appVersionOverride:(NSString * _Nonnull)appVersionOverride;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

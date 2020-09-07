@@ -52,22 +52,25 @@ extension PhraseUpdateError : Foundation.LocalizedError {
     get
   }
 }
+extension Phrase {
+  @available(swift, obsoleted: 1.0)
+  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String)
+  @available(swift, obsoleted: 1.0)
+  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String, localeOverride: Swift.String)
+  @available(swift, obsoleted: 1.0)
+  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double)
+  @available(swift, obsoleted: 1.0)
+  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String, appVersionOverride: Swift.String)
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Phrase : ObjectiveC.NSObject {
-  @objc public var localeOverride: Swift.String? {
-    get
-  }
+  @objc public var localeOverride: Swift.String?
+  @objc public var appVersionOverride: Swift.String?
   @objc public static let shared: PhraseSDK.Phrase
   @objc public var debugMode: Swift.Bool
   @objc public var sdkVersion: Swift.String {
     get
   }
-  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double = 10.0, localeOverride: Swift.String? = nil)
-  @available(swift, obsoleted: 1.0)
-  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String)
-  @available(swift, obsoleted: 1.0)
-  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String, localeOverride: Swift.String)
-  @available(swift, obsoleted: 1.0)
-  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double)
+  @objc public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double = 10.0, localeOverride: Swift.String? = nil, appVersionOverride: Swift.String? = nil)
   @objc deinit
 }
 extension Phrase {
