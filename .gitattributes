@@ -1,0 +1,3 @@
+# ignore in export
+/config export-ignore
+/CODEOWNERS export-ignore
