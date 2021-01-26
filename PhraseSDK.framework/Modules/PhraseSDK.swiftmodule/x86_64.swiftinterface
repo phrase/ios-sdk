@@ -1,10 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhraseSDK
 import Foundation
 @_exported import PhraseSDK
 import Swift
-import UIKit/*.UIDevice*/
+import UIKit
 public protocol PhraseError : Swift.Error {
 }
 public enum PhraseSetupError : PhraseSDK.PhraseError {
@@ -42,8 +42,8 @@ extension PhraseNetworkError : Foundation.LocalizedError {
   }
 }
 public struct PhraseUpdateError : PhraseSDK.PhraseError {
-  public let underlyingErrors: [PhraseSDK.PhraseError]
-  public var last: PhraseSDK.PhraseError {
+  public let underlyingErrors: [Swift.Error]
+  public var last: Swift.Error? {
     get
   }
 }
@@ -51,16 +51,6 @@ extension PhraseUpdateError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
     get
   }
-}
-extension Phrase {
-  @available(swift, obsoleted: 1.0)
-  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String)
-  @available(swift, obsoleted: 1.0)
-  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String, localeOverride: Swift.String)
-  @available(swift, obsoleted: 1.0)
-  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double)
-  @available(swift, obsoleted: 1.0)
-  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String, appVersionOverride: Swift.String)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Phrase : ObjectiveC.NSObject {
   @objc public var localeOverride: Swift.String?
@@ -75,9 +65,21 @@ extension Phrase {
 }
 extension Phrase {
   public func updateTranslations(completionHandler: ((Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> Swift.Void)? = nil) throws
-  @available(swift, obsoleted: 1.0)
-  @objc dynamic public func updateTranslations(completionHandler: ((Swift.Bool, Swift.Error?) -> Swift.Void)?)
 }
 extension Phrase {
   @objc dynamic public func localizedString(forKey key: Swift.String, value: Swift.String?, table tableName: Swift.String?) -> Swift.String
+}
+extension Phrase {
+  @available(swift, obsoleted: 1.0)
+  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String)
+  @available(swift, obsoleted: 1.0)
+  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String, localeOverride: Swift.String)
+  @available(swift, obsoleted: 1.0)
+  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String, timeout: Swift.Double)
+  @available(swift, obsoleted: 1.0)
+  @objc dynamic public func setup(distributionID: Swift.String, environmentSecret: Swift.String, appVersionOverride: Swift.String)
+}
+extension Phrase {
+  @available(swift, obsoleted: 1.0)
+  @objc dynamic public func updateTranslations(completionHandler: ((Swift.Bool, Swift.Error?) -> Swift.Void)?)
 }
