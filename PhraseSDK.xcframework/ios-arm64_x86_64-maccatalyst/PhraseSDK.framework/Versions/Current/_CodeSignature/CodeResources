@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		nqHPT+fNARQpIZTPxwfKTorAUgE=
+		AatrLkxjD5Dc+bkaJztZDjjhIvU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +15,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U9jwhqivnFdqfn9uqJZHpTe9nWGOfVJSZi77n9vgy7Y=
+			EZ3MdeCy3SOOG4Zj3chwKaj0XNReJExccFYLaaGftBg=
 			</data>
 		</dict>
 		<key>Headers/PhraseSDK.h</key>
@@ -29,7 +29,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NP0kKzy0UnZ+1qJo7aFbG/UzCKE4SF1IFmiEqQouk+8=
+			mhToopJiKbnB0VfEMQWhuiYKJT5EndruztMP5Kpm5JI=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
@@ -43,14 +43,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oJ2H2go5ioKkxc1zPm+J7njNJ1GHY6opMzW2nAk8UsM=
+			sWozsjmlbolJgvhqPryvH7VZ2wUXOzMkPjnvGC62D1E=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NP0kKzy0UnZ+1qJo7aFbG/UzCKE4SF1IFmiEqQouk+8=
+			mhToopJiKbnB0VfEMQWhuiYKJT5EndruztMP5Kpm5JI=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/arm64.swiftinterface</key>
@@ -64,14 +64,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oJ2H2go5ioKkxc1zPm+J7njNJ1GHY6opMzW2nAk8UsM=
+			sWozsjmlbolJgvhqPryvH7VZ2wUXOzMkPjnvGC62D1E=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKQ3KT03kloz6yLv2i2wh9Ld3he2Vgg5+kKSP4O2iqE=
+			p+GaULRh/+WcXS4QTVCMADmCt1jeSreHwIRa8o/DTT0=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RMQojRdUMK+22szNSPMAWlCQCfi3PHBLo5LVJhFKNRU=
+			X9URRzol0eUdCnch+CZ5R1W20X28D7rDZ+mrS929MzI=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKQ3KT03kloz6yLv2i2wh9Ld3he2Vgg5+kKSP4O2iqE=
+			p+GaULRh/+WcXS4QTVCMADmCt1jeSreHwIRa8o/DTT0=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64.swiftinterface</key>
@@ -106,7 +106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RMQojRdUMK+22szNSPMAWlCQCfi3PHBLo5LVJhFKNRU=
+			X9URRzol0eUdCnch+CZ5R1W20X28D7rDZ+mrS929MzI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QwdLAI5bgIwX+x/wt2VgRzadaC2JvM3ZrkZhzt1CE68=
+			e/KcjuNRrUTnF1s2FS9iU5iP40ijb+fjwD4Jlso10YA=
 			</data>
 		</dict>
 	</dict>

@@ -194,7 +194,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -276,8 +275,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 
 
 @interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+@end
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
 - (void)updateTranslationsWithCompletionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
 @end
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+@end
+
+
 
 
 
@@ -318,8 +327,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 /// </ul>
 - (NSString * _Nonnull)localizedStringForKey:(NSString * _Nonnull)key value:(NSString * _Nullable)value table:(NSString * _Nullable)tableName SWIFT_WARN_UNUSED_RESULT;
 @end
-
-
 
 
 
@@ -389,35 +396,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 /// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
 ///
 - (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret appVersionOverride:(NSString * _Nonnull)appVersionOverride;
-@end
-
-
-/// <code>PhraseBundle</code> is the bundle class replacing the user’s <code>Bundle.main</code> when the bundle proxy is enabled.
-/// If no translations are found, translations from original main bundle are used as a fallback.
-SWIFT_CLASS("_TtC9PhraseSDK12PhraseBundle")
-@interface PhraseBundle : NSBundle
-- (NSString * _Nonnull)localizedStringForKey:(NSString * _Nonnull)key value:(NSString * _Nullable)value table:(NSString * _Nullable)tableName SWIFT_WARN_UNUSED_RESULT;
-- (nullable instancetype)initWithPath:(NSString * _Nonnull)path OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// An operation class which handles async operations.
-SWIFT_CLASS("_TtC9PhraseSDK22PhraseNetworkOperation")
-@interface PhraseNetworkOperation : NSOperation
-/// Let iOS know we intend to run asynchronously.
-@property (nonatomic, readonly, getter=isAsynchronous) BOOL asynchronous;
-/// Overriden isExecuting. Must be thread-safe!
-@property (nonatomic, readonly, getter=isExecuting) BOOL executing;
-/// Overriden isFinished. Must be thread-safe!
-@property (nonatomic, readonly, getter=isFinished) BOOL finished;
-/// The start method.
-- (void)start;
-/// The main execution block which executes the download task.
-- (void)main;
-/// The cancel method which also cancels the download task.
-- (void)cancel;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #if __has_attribute(external_source_symbol)
@@ -617,7 +595,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -699,8 +676,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 
 
 @interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+@end
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
 - (void)updateTranslationsWithCompletionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
 @end
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+@end
+
+
 
 
 
@@ -741,8 +728,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 /// </ul>
 - (NSString * _Nonnull)localizedStringForKey:(NSString * _Nonnull)key value:(NSString * _Nullable)value table:(NSString * _Nullable)tableName SWIFT_WARN_UNUSED_RESULT;
 @end
-
-
 
 
 
@@ -812,35 +797,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 /// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
 ///
 - (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret appVersionOverride:(NSString * _Nonnull)appVersionOverride;
-@end
-
-
-/// <code>PhraseBundle</code> is the bundle class replacing the user’s <code>Bundle.main</code> when the bundle proxy is enabled.
-/// If no translations are found, translations from original main bundle are used as a fallback.
-SWIFT_CLASS("_TtC9PhraseSDK12PhraseBundle")
-@interface PhraseBundle : NSBundle
-- (NSString * _Nonnull)localizedStringForKey:(NSString * _Nonnull)key value:(NSString * _Nullable)value table:(NSString * _Nullable)tableName SWIFT_WARN_UNUSED_RESULT;
-- (nullable instancetype)initWithPath:(NSString * _Nonnull)path OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// An operation class which handles async operations.
-SWIFT_CLASS("_TtC9PhraseSDK22PhraseNetworkOperation")
-@interface PhraseNetworkOperation : NSOperation
-/// Let iOS know we intend to run asynchronously.
-@property (nonatomic, readonly, getter=isAsynchronous) BOOL asynchronous;
-/// Overriden isExecuting. Must be thread-safe!
-@property (nonatomic, readonly, getter=isExecuting) BOOL executing;
-/// Overriden isFinished. Must be thread-safe!
-@property (nonatomic, readonly, getter=isFinished) BOOL finished;
-/// The start method.
-- (void)start;
-/// The main execution block which executes the download task.
-- (void)main;
-/// The cancel method which also cancels the download task.
-- (void)cancel;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #if __has_attribute(external_source_symbol)
@@ -1044,7 +1000,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -1126,8 +1081,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 
 
 @interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+@end
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
 - (void)updateTranslationsWithCompletionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
 @end
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+@end
+
+
 
 
 
@@ -1168,8 +1133,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 /// </ul>
 - (NSString * _Nonnull)localizedStringForKey:(NSString * _Nonnull)key value:(NSString * _Nullable)value table:(NSString * _Nullable)tableName SWIFT_WARN_UNUSED_RESULT;
 @end
-
-
 
 
 
@@ -1239,35 +1202,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 /// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
 ///
 - (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret appVersionOverride:(NSString * _Nonnull)appVersionOverride;
-@end
-
-
-/// <code>PhraseBundle</code> is the bundle class replacing the user’s <code>Bundle.main</code> when the bundle proxy is enabled.
-/// If no translations are found, translations from original main bundle are used as a fallback.
-SWIFT_CLASS("_TtC9PhraseSDK12PhraseBundle")
-@interface PhraseBundle : NSBundle
-- (NSString * _Nonnull)localizedStringForKey:(NSString * _Nonnull)key value:(NSString * _Nullable)value table:(NSString * _Nullable)tableName SWIFT_WARN_UNUSED_RESULT;
-- (nullable instancetype)initWithPath:(NSString * _Nonnull)path OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// An operation class which handles async operations.
-SWIFT_CLASS("_TtC9PhraseSDK22PhraseNetworkOperation")
-@interface PhraseNetworkOperation : NSOperation
-/// Let iOS know we intend to run asynchronously.
-@property (nonatomic, readonly, getter=isAsynchronous) BOOL asynchronous;
-/// Overriden isExecuting. Must be thread-safe!
-@property (nonatomic, readonly, getter=isExecuting) BOOL executing;
-/// Overriden isFinished. Must be thread-safe!
-@property (nonatomic, readonly, getter=isFinished) BOOL finished;
-/// The start method.
-- (void)start;
-/// The main execution block which executes the download task.
-- (void)main;
-/// The cancel method which also cancels the download task.
-- (void)cancel;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #if __has_attribute(external_source_symbol)
@@ -1467,7 +1401,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -1549,8 +1482,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 
 
 @interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+@end
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
 - (void)updateTranslationsWithCompletionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
 @end
+
+
+@interface Phrase (SWIFT_EXTENSION(PhraseSDK))
+@end
+
+
 
 
 
@@ -1591,8 +1534,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 /// </ul>
 - (NSString * _Nonnull)localizedStringForKey:(NSString * _Nonnull)key value:(NSString * _Nullable)value table:(NSString * _Nullable)tableName SWIFT_WARN_UNUSED_RESULT;
 @end
-
-
 
 
 
@@ -1662,35 +1603,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Phrase * _No
 /// \param appVersionOverride Set to override the App Version used to find matching translations. Must be semantic.
 ///
 - (void)setupWithDistributionID:(NSString * _Nonnull)distributionID environmentSecret:(NSString * _Nonnull)environmentSecret appVersionOverride:(NSString * _Nonnull)appVersionOverride;
-@end
-
-
-/// <code>PhraseBundle</code> is the bundle class replacing the user’s <code>Bundle.main</code> when the bundle proxy is enabled.
-/// If no translations are found, translations from original main bundle are used as a fallback.
-SWIFT_CLASS("_TtC9PhraseSDK12PhraseBundle")
-@interface PhraseBundle : NSBundle
-- (NSString * _Nonnull)localizedStringForKey:(NSString * _Nonnull)key value:(NSString * _Nullable)value table:(NSString * _Nullable)tableName SWIFT_WARN_UNUSED_RESULT;
-- (nullable instancetype)initWithPath:(NSString * _Nonnull)path OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// An operation class which handles async operations.
-SWIFT_CLASS("_TtC9PhraseSDK22PhraseNetworkOperation")
-@interface PhraseNetworkOperation : NSOperation
-/// Let iOS know we intend to run asynchronously.
-@property (nonatomic, readonly, getter=isAsynchronous) BOOL asynchronous;
-/// Overriden isExecuting. Must be thread-safe!
-@property (nonatomic, readonly, getter=isExecuting) BOOL executing;
-/// Overriden isFinished. Must be thread-safe!
-@property (nonatomic, readonly, getter=isFinished) BOOL finished;
-/// The start method.
-- (void)start;
-/// The main execution block which executes the download task.
-- (void)main;
-/// The cancel method which also cancels the download task.
-- (void)cancel;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #if __has_attribute(external_source_symbol)

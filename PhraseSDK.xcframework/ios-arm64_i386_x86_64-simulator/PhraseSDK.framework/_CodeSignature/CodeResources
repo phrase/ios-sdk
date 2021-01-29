@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PhraseSDK-Swift.h</key>
 		<data>
-		ALg30fHCPFQ7pHeFyLR44updEGc=
+		G9Y5Hs4jJWreHEHc9rS4phQN6tY=
 		</data>
 		<key>Headers/PhraseSDK.h</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VGcuuf84JwgVMFREXXLfalTHSlo=
+		B3Y8ZWbPI37pb99E5mfNWGXYfKY=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IxzAWCn9Qvx41YEt4AfbUhd+a6g=
+		+KsLlKCwkY0NCUUhXsZzvlnYPPY=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		g3RRGYzcMYn5dJ3MJF22o9fRecY=
+		8DpVIPIe20LODTUc2FN8SUvfU9I=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		IxzAWCn9Qvx41YEt4AfbUhd+a6g=
+		+KsLlKCwkY0NCUUhXsZzvlnYPPY=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		g3RRGYzcMYn5dJ3MJF22o9fRecY=
+		8DpVIPIe20LODTUc2FN8SUvfU9I=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		l//64qdlUFMvmLuIHMKqy3pAlKM=
+		+l1cebX2YVBNez/WHka9V5k7pBQ=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		njBPu42BR6Kb0pCT2j9w+X3kbFM=
+		7GalYQ9isDCcdYEFZTto67oZ+8I=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
-		l//64qdlUFMvmLuIHMKqy3pAlKM=
+		+l1cebX2YVBNez/WHka9V5k7pBQ=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/i386.swiftinterface</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		njBPu42BR6Kb0pCT2j9w+X3kbFM=
+		7GalYQ9isDCcdYEFZTto67oZ+8I=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		SOHMDhQ9pDnV9RDj7obKjmex4vg=
+		FZypEkNs1xLAAchWkL6X8CMjq6g=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ts0BCRRNiCI1v2bld07YZaPq+Fw=
+		AdW+dOgu7pxgdtbP+e1YU5oIMYg=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		SOHMDhQ9pDnV9RDj7obKjmex4vg=
+		FZypEkNs1xLAAchWkL6X8CMjq6g=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		ts0BCRRNiCI1v2bld07YZaPq+Fw=
+		AdW+dOgu7pxgdtbP+e1YU5oIMYg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ALg30fHCPFQ7pHeFyLR44updEGc=
+			G9Y5Hs4jJWreHEHc9rS4phQN6tY=
 			</data>
 			<key>hash2</key>
 			<data>
-			i+qgEhaNHstQVUGrURUTlqnXUkg3lHsAhgH+WjY2z6I=
+			rATAgimGaS5EHCywuWH5I8zFS1+IpVu3M8llNG7ZzoY=
 			</data>
 		</dict>
 		<key>Headers/PhraseSDK.h</key>
@@ -121,11 +121,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IxzAWCn9Qvx41YEt4AfbUhd+a6g=
+			+KsLlKCwkY0NCUUhXsZzvlnYPPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			J0iGMlC0cN7kjsCDrypGPmAVQbZbrOF03GwD2q4GraQ=
+			MOvnO1xfaJiqBkDz1RNtVSxs7STLoKEpar2r11bPdmo=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -143,22 +143,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g3RRGYzcMYn5dJ3MJF22o9fRecY=
+			8DpVIPIe20LODTUc2FN8SUvfU9I=
 			</data>
 			<key>hash2</key>
 			<data>
-			R/HzS9tm0LWcfrwShSNHubh03eM2jhQiVKqP8pGqZYM=
+			2WEmMJz1cD0KVP5wUakcxgH+oWD1rScuekMXLUu47Jo=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IxzAWCn9Qvx41YEt4AfbUhd+a6g=
+			+KsLlKCwkY0NCUUhXsZzvlnYPPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			J0iGMlC0cN7kjsCDrypGPmAVQbZbrOF03GwD2q4GraQ=
+			MOvnO1xfaJiqBkDz1RNtVSxs7STLoKEpar2r11bPdmo=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/arm64.swiftinterface</key>
@@ -176,22 +176,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g3RRGYzcMYn5dJ3MJF22o9fRecY=
+			8DpVIPIe20LODTUc2FN8SUvfU9I=
 			</data>
 			<key>hash2</key>
 			<data>
-			R/HzS9tm0LWcfrwShSNHubh03eM2jhQiVKqP8pGqZYM=
+			2WEmMJz1cD0KVP5wUakcxgH+oWD1rScuekMXLUu47Jo=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l//64qdlUFMvmLuIHMKqy3pAlKM=
+			+l1cebX2YVBNez/WHka9V5k7pBQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			lVelWtk8xBDapXIx19snrvnt/yrl5URUftXK0PiwGlM=
+			umEiDAZHAeOj7ozUal2lWGNTVBu00Qk+YtvaQseHGWg=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
@@ -209,22 +209,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			njBPu42BR6Kb0pCT2j9w+X3kbFM=
+			7GalYQ9isDCcdYEFZTto67oZ+8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			BPt0CJrCeIfYzPPetLBAy1IJ9bVLi1ftXONmplPKqXE=
+			wjiuVYL4Uvnga7DO4dyIMI7eBtTHyFre0jOAZzEDuds=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l//64qdlUFMvmLuIHMKqy3pAlKM=
+			+l1cebX2YVBNez/WHka9V5k7pBQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			lVelWtk8xBDapXIx19snrvnt/yrl5URUftXK0PiwGlM=
+			umEiDAZHAeOj7ozUal2lWGNTVBu00Qk+YtvaQseHGWg=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/i386.swiftinterface</key>
@@ -242,22 +242,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			njBPu42BR6Kb0pCT2j9w+X3kbFM=
+			7GalYQ9isDCcdYEFZTto67oZ+8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			BPt0CJrCeIfYzPPetLBAy1IJ9bVLi1ftXONmplPKqXE=
+			wjiuVYL4Uvnga7DO4dyIMI7eBtTHyFre0jOAZzEDuds=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SOHMDhQ9pDnV9RDj7obKjmex4vg=
+			FZypEkNs1xLAAchWkL6X8CMjq6g=
 			</data>
 			<key>hash2</key>
 			<data>
-			35QFp7kPQEo1ja2s/lDsmw0R9y/1VoQYjr+oPRgAUZA=
+			PynJj2oLnwt6U06boeIHjrnJDipGj3jCvNuwDNsCCFs=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -275,22 +275,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ts0BCRRNiCI1v2bld07YZaPq+Fw=
+			AdW+dOgu7pxgdtbP+e1YU5oIMYg=
 			</data>
 			<key>hash2</key>
 			<data>
-			TV24bGmiohb/afiqCkEvzBDlxphu9c2+BT9rdvF10y0=
+			/neF/a/eTH3l629DHp0/Qn6Obwd0RJ4vir7AqgPmzmY=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SOHMDhQ9pDnV9RDj7obKjmex4vg=
+			FZypEkNs1xLAAchWkL6X8CMjq6g=
 			</data>
 			<key>hash2</key>
 			<data>
-			35QFp7kPQEo1ja2s/lDsmw0R9y/1VoQYjr+oPRgAUZA=
+			PynJj2oLnwt6U06boeIHjrnJDipGj3jCvNuwDNsCCFs=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64.swiftinterface</key>
@@ -308,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ts0BCRRNiCI1v2bld07YZaPq+Fw=
+			AdW+dOgu7pxgdtbP+e1YU5oIMYg=
 			</data>
 			<key>hash2</key>
 			<data>
-			TV24bGmiohb/afiqCkEvzBDlxphu9c2+BT9rdvF10y0=
+			/neF/a/eTH3l629DHp0/Qn6Obwd0RJ4vir7AqgPmzmY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
