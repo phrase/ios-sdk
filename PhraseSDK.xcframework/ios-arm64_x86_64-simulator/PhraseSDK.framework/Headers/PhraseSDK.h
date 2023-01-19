@@ -2,7 +2,7 @@
 //  PhraseSDK.h
 //  PhraseSDK
 //
-//  Copyright © 2022 Memsource GmbH. All rights reserved.
+//  Copyright © 2023 Memsource GmbH. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

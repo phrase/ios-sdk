@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'PhraseSDK'
-  s.version             = '4.0.1'
+  s.version             = '4.1.0'
   s.summary             = 'iOS SDK for Phrase'
   s.homepage            = 'https://phrase.com'
   s.documentation_url   = 'https://help.phrase.com/help/phrase-over-the-air-introduction'

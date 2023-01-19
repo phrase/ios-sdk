@@ -21,8 +21,6 @@
 			<string>ios</string>
 		</dict>
 		<dict>
-			<key>BitcodeSymbolMapsPath</key>
-			<string>BCSymbolMaps</string>
 			<key>DebugSymbolsPath</key>
 			<string>dSYMs</string>
 			<key>LibraryIdentifier</key>
