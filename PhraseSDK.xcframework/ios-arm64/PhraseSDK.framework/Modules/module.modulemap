@@ -6,6 +6,6 @@ framework module PhraseSDK {
 }
 
 module PhraseSDK.Swift {
-    header "PhraseSDK-Swift.h"
-    requires objc
+  header "PhraseSDK-Swift.h"
+  requires objc
 }

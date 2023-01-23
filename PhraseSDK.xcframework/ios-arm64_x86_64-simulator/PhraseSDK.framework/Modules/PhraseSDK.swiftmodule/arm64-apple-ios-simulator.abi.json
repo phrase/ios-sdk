@@ -1,0 +1,3699 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhraseError",
+        "printedName": "PhraseError",
+        "declKind": "Protocol",
+        "usr": "s:9PhraseSDK0A5ErrorP",
+        "mangledName": "$s9PhraseSDK0A5ErrorP",
+        "moduleName": "PhraseSDK",
+        "genericSig": "<τ_0_0 : Swift.Error>",
+        "sugared_genericSig": "<Self : Swift.Error>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhraseSetupError",
+        "printedName": "PhraseSetupError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notInitialized",
+            "printedName": "notInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseSetupError.Type) -> PhraseSDK.PhraseSetupError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseSetupError",
+                    "printedName": "PhraseSDK.PhraseSetupError",
+                    "usr": "s:9PhraseSDK0A10SetupErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseSetupError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseSetupError",
+                        "printedName": "PhraseSDK.PhraseSetupError",
+                        "usr": "s:9PhraseSDK0A10SetupErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A10SetupErrorO14notInitializedyA2CmF",
+            "mangledName": "$s9PhraseSDK0A10SetupErrorO14notInitializedyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "missingDistributionID",
+            "printedName": "missingDistributionID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseSetupError.Type) -> PhraseSDK.PhraseSetupError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseSetupError",
+                    "printedName": "PhraseSDK.PhraseSetupError",
+                    "usr": "s:9PhraseSDK0A10SetupErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseSetupError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseSetupError",
+                        "printedName": "PhraseSDK.PhraseSetupError",
+                        "usr": "s:9PhraseSDK0A10SetupErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A10SetupErrorO21missingDistributionIDyA2CmF",
+            "mangledName": "$s9PhraseSDK0A10SetupErrorO21missingDistributionIDyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "missingEnvironmentSecret",
+            "printedName": "missingEnvironmentSecret",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseSetupError.Type) -> PhraseSDK.PhraseSetupError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseSetupError",
+                    "printedName": "PhraseSDK.PhraseSetupError",
+                    "usr": "s:9PhraseSDK0A10SetupErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseSetupError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseSetupError",
+                        "printedName": "PhraseSDK.PhraseSetupError",
+                        "usr": "s:9PhraseSDK0A10SetupErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A10SetupErrorO24missingEnvironmentSecretyA2CmF",
+            "mangledName": "$s9PhraseSDK0A10SetupErrorO24missingEnvironmentSecretyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appVersionNotSemantic",
+            "printedName": "appVersionNotSemantic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseSetupError.Type) -> (Swift.Error) -> PhraseSDK.PhraseSetupError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> PhraseSDK.PhraseSetupError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseSetupError",
+                        "printedName": "PhraseSDK.PhraseSetupError",
+                        "usr": "s:9PhraseSDK0A10SetupErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(underlyingError: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseSetupError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseSetupError",
+                        "printedName": "PhraseSDK.PhraseSetupError",
+                        "usr": "s:9PhraseSDK0A10SetupErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A10SetupErrorO21appVersionNotSemanticyACs0D0_p_tcACmF",
+            "mangledName": "$s9PhraseSDK0A10SetupErrorO21appVersionNotSemanticyACs0D0_p_tcACmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PhraseSDK0A10SetupErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s9PhraseSDK0A10SetupErrorO16errorDescriptionSSSgvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A10SetupErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s9PhraseSDK0A10SetupErrorO16errorDescriptionSSSgvg",
+                "moduleName": "PhraseSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9PhraseSDK0A10SetupErrorO",
+        "mangledName": "$s9PhraseSDK0A10SetupErrorO",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PhraseError",
+            "printedName": "PhraseError",
+            "usr": "s:9PhraseSDK0A5ErrorP",
+            "mangledName": "$s9PhraseSDK0A5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhraseSemanticVersionError",
+        "printedName": "PhraseSemanticVersionError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appVersionOverrideNotSemantic",
+            "printedName": "appVersionOverrideNotSemantic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseSemanticVersionError.Type) -> PhraseSDK.PhraseSemanticVersionError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseSemanticVersionError",
+                    "printedName": "PhraseSDK.PhraseSemanticVersionError",
+                    "usr": "s:9PhraseSDK0A20SemanticVersionErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseSemanticVersionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseSemanticVersionError",
+                        "printedName": "PhraseSDK.PhraseSemanticVersionError",
+                        "usr": "s:9PhraseSDK0A20SemanticVersionErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A20SemanticVersionErrorO03appd11OverrideNotC0yA2CmF",
+            "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO03appd11OverrideNotC0yA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "missingCFBundleShortVersionString",
+            "printedName": "missingCFBundleShortVersionString",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseSemanticVersionError.Type) -> PhraseSDK.PhraseSemanticVersionError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseSemanticVersionError",
+                    "printedName": "PhraseSDK.PhraseSemanticVersionError",
+                    "usr": "s:9PhraseSDK0A20SemanticVersionErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseSemanticVersionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseSemanticVersionError",
+                        "printedName": "PhraseSDK.PhraseSemanticVersionError",
+                        "usr": "s:9PhraseSDK0A20SemanticVersionErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A20SemanticVersionErrorO020missingCFBundleShortD6StringyA2CmF",
+            "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO020missingCFBundleShortD6StringyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "missingCFBundleVersion",
+            "printedName": "missingCFBundleVersion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseSemanticVersionError.Type) -> PhraseSDK.PhraseSemanticVersionError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseSemanticVersionError",
+                    "printedName": "PhraseSDK.PhraseSemanticVersionError",
+                    "usr": "s:9PhraseSDK0A20SemanticVersionErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseSemanticVersionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseSemanticVersionError",
+                        "printedName": "PhraseSDK.PhraseSemanticVersionError",
+                        "usr": "s:9PhraseSDK0A20SemanticVersionErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A20SemanticVersionErrorO015missingCFBundleD0yA2CmF",
+            "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO015missingCFBundleD0yA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cannotComposeSemanticVersion",
+            "printedName": "cannotComposeSemanticVersion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseSemanticVersionError.Type) -> PhraseSDK.PhraseSemanticVersionError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseSemanticVersionError",
+                    "printedName": "PhraseSDK.PhraseSemanticVersionError",
+                    "usr": "s:9PhraseSDK0A20SemanticVersionErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseSemanticVersionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseSemanticVersionError",
+                        "printedName": "PhraseSDK.PhraseSemanticVersionError",
+                        "usr": "s:9PhraseSDK0A20SemanticVersionErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A20SemanticVersionErrorO013cannotComposecD0yA2CmF",
+            "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO013cannotComposecD0yA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PhraseSemanticVersionError",
+                "printedName": "PhraseSDK.PhraseSemanticVersionError",
+                "usr": "s:9PhraseSDK0A20SemanticVersionErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PhraseSemanticVersionError",
+                "printedName": "PhraseSDK.PhraseSemanticVersionError",
+                "usr": "s:9PhraseSDK0A20SemanticVersionErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PhraseSDK0A20SemanticVersionErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "PhraseSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PhraseSDK0A20SemanticVersionErrorO9hashValueSivp",
+            "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO9hashValueSivp",
+            "moduleName": "PhraseSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A20SemanticVersionErrorO9hashValueSivg",
+                "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO9hashValueSivg",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PhraseSDK0A20SemanticVersionErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "PhraseSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PhraseSDK0A20SemanticVersionErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO16errorDescriptionSSSgvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A20SemanticVersionErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO16errorDescriptionSSSgvg",
+                "moduleName": "PhraseSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9PhraseSDK0A20SemanticVersionErrorO",
+        "mangledName": "$s9PhraseSDK0A20SemanticVersionErrorO",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PhraseError",
+            "printedName": "PhraseError",
+            "usr": "s:9PhraseSDK0A5ErrorP",
+            "mangledName": "$s9PhraseSDK0A5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhraseInternalError",
+        "printedName": "PhraseInternalError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dataUrlError",
+            "printedName": "dataUrlError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseInternalError.Type) -> PhraseSDK.PhraseInternalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseInternalError",
+                    "printedName": "PhraseSDK.PhraseInternalError",
+                    "usr": "s:9PhraseSDK0A13InternalErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseInternalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseInternalError",
+                        "printedName": "PhraseSDK.PhraseInternalError",
+                        "usr": "s:9PhraseSDK0A13InternalErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A13InternalErrorO07dataUrlD0yA2CmF",
+            "mangledName": "$s9PhraseSDK0A13InternalErrorO07dataUrlD0yA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apiUrlError",
+            "printedName": "apiUrlError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseInternalError.Type) -> PhraseSDK.PhraseInternalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseInternalError",
+                    "printedName": "PhraseSDK.PhraseInternalError",
+                    "usr": "s:9PhraseSDK0A13InternalErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseInternalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseInternalError",
+                        "printedName": "PhraseSDK.PhraseInternalError",
+                        "usr": "s:9PhraseSDK0A13InternalErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A13InternalErrorO06apiUrlD0yA2CmF",
+            "mangledName": "$s9PhraseSDK0A13InternalErrorO06apiUrlD0yA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selfIsNil",
+            "printedName": "selfIsNil",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseInternalError.Type) -> PhraseSDK.PhraseInternalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseInternalError",
+                    "printedName": "PhraseSDK.PhraseInternalError",
+                    "usr": "s:9PhraseSDK0A13InternalErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseInternalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseInternalError",
+                        "printedName": "PhraseSDK.PhraseInternalError",
+                        "usr": "s:9PhraseSDK0A13InternalErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A13InternalErrorO9selfIsNilyA2CmF",
+            "mangledName": "$s9PhraseSDK0A13InternalErrorO9selfIsNilyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inconsistentUpdate",
+            "printedName": "inconsistentUpdate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseInternalError.Type) -> PhraseSDK.PhraseInternalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseInternalError",
+                    "printedName": "PhraseSDK.PhraseInternalError",
+                    "usr": "s:9PhraseSDK0A13InternalErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseInternalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseInternalError",
+                        "printedName": "PhraseSDK.PhraseInternalError",
+                        "usr": "s:9PhraseSDK0A13InternalErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A13InternalErrorO18inconsistentUpdateyA2CmF",
+            "mangledName": "$s9PhraseSDK0A13InternalErrorO18inconsistentUpdateyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "versionStorageUnavailable",
+            "printedName": "versionStorageUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseInternalError.Type) -> PhraseSDK.PhraseInternalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseInternalError",
+                    "printedName": "PhraseSDK.PhraseInternalError",
+                    "usr": "s:9PhraseSDK0A13InternalErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseInternalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseInternalError",
+                        "printedName": "PhraseSDK.PhraseInternalError",
+                        "usr": "s:9PhraseSDK0A13InternalErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A13InternalErrorO25versionStorageUnavailableyA2CmF",
+            "mangledName": "$s9PhraseSDK0A13InternalErrorO25versionStorageUnavailableyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseInternalError.Type) -> (Swift.Error) -> PhraseSDK.PhraseInternalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> PhraseSDK.PhraseInternalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseInternalError",
+                        "printedName": "PhraseSDK.PhraseInternalError",
+                        "usr": "s:9PhraseSDK0A13InternalErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(underlyingError: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseInternalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseInternalError",
+                        "printedName": "PhraseSDK.PhraseInternalError",
+                        "usr": "s:9PhraseSDK0A13InternalErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A13InternalErrorO07unknownD0yACs0D0_p_tcACmF",
+            "mangledName": "$s9PhraseSDK0A13InternalErrorO07unknownD0yACs0D0_p_tcACmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PhraseSDK0A13InternalErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s9PhraseSDK0A13InternalErrorO16errorDescriptionSSSgvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A13InternalErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s9PhraseSDK0A13InternalErrorO16errorDescriptionSSSgvg",
+                "moduleName": "PhraseSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9PhraseSDK0A13InternalErrorO",
+        "mangledName": "$s9PhraseSDK0A13InternalErrorO",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PhraseError",
+            "printedName": "PhraseError",
+            "usr": "s:9PhraseSDK0A5ErrorP",
+            "mangledName": "$s9PhraseSDK0A5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhraseNetworkError",
+        "printedName": "PhraseNetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "connectionError",
+            "printedName": "connectionError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseNetworkError.Type) -> (Swift.Error) -> PhraseSDK.PhraseNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> PhraseSDK.PhraseNetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseNetworkError",
+                        "printedName": "PhraseSDK.PhraseNetworkError",
+                        "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(underlyingError: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseNetworkError",
+                        "printedName": "PhraseSDK.PhraseNetworkError",
+                        "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A12NetworkErrorO010connectionD0yACs0D0_p_tcACmF",
+            "mangledName": "$s9PhraseSDK0A12NetworkErrorO010connectionD0yACs0D0_p_tcACmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseNotHTTP",
+            "printedName": "responseNotHTTP",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseNetworkError.Type) -> PhraseSDK.PhraseNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseNetworkError",
+                    "printedName": "PhraseSDK.PhraseNetworkError",
+                    "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseNetworkError",
+                        "printedName": "PhraseSDK.PhraseNetworkError",
+                        "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A12NetworkErrorO15responseNotHTTPyA2CmF",
+            "mangledName": "$s9PhraseSDK0A12NetworkErrorO15responseNotHTTPyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseUrlMissing",
+            "printedName": "responseUrlMissing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseNetworkError.Type) -> PhraseSDK.PhraseNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseNetworkError",
+                    "printedName": "PhraseSDK.PhraseNetworkError",
+                    "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseNetworkError",
+                        "printedName": "PhraseSDK.PhraseNetworkError",
+                        "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A12NetworkErrorO18responseUrlMissingyA2CmF",
+            "mangledName": "$s9PhraseSDK0A12NetworkErrorO18responseUrlMissingyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "distributionNotFound",
+            "printedName": "distributionNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseNetworkError.Type) -> PhraseSDK.PhraseNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseNetworkError",
+                    "printedName": "PhraseSDK.PhraseNetworkError",
+                    "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseNetworkError",
+                        "printedName": "PhraseSDK.PhraseNetworkError",
+                        "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A12NetworkErrorO20distributionNotFoundyA2CmF",
+            "mangledName": "$s9PhraseSDK0A12NetworkErrorO20distributionNotFoundyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "missingReleaseVersion",
+            "printedName": "missingReleaseVersion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseNetworkError.Type) -> PhraseSDK.PhraseNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseNetworkError",
+                    "printedName": "PhraseSDK.PhraseNetworkError",
+                    "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseNetworkError",
+                        "printedName": "PhraseSDK.PhraseNetworkError",
+                        "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A12NetworkErrorO21missingReleaseVersionyA2CmF",
+            "mangledName": "$s9PhraseSDK0A12NetworkErrorO21missingReleaseVersionyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseStatusInvalid",
+            "printedName": "responseStatusInvalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseNetworkError.Type) -> (Swift.Int, Swift.String) -> PhraseSDK.PhraseNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String) -> PhraseSDK.PhraseNetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseNetworkError",
+                        "printedName": "PhraseSDK.PhraseNetworkError",
+                        "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(code: Swift.Int, message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseNetworkError",
+                        "printedName": "PhraseSDK.PhraseNetworkError",
+                        "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A12NetworkErrorO21responseStatusInvalidyACSi_SStcACmF",
+            "mangledName": "$s9PhraseSDK0A12NetworkErrorO21responseStatusInvalidyACSi_SStcACmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseDataInvalid",
+            "printedName": "responseDataInvalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseNetworkError.Type) -> PhraseSDK.PhraseNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseNetworkError",
+                    "printedName": "PhraseSDK.PhraseNetworkError",
+                    "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseNetworkError",
+                        "printedName": "PhraseSDK.PhraseNetworkError",
+                        "usr": "s:9PhraseSDK0A12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PhraseSDK0A12NetworkErrorO19responseDataInvalidyA2CmF",
+            "mangledName": "$s9PhraseSDK0A12NetworkErrorO19responseDataInvalidyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PhraseSDK0A12NetworkErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s9PhraseSDK0A12NetworkErrorO16errorDescriptionSSSgvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A12NetworkErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s9PhraseSDK0A12NetworkErrorO16errorDescriptionSSSgvg",
+                "moduleName": "PhraseSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9PhraseSDK0A12NetworkErrorO",
+        "mangledName": "$s9PhraseSDK0A12NetworkErrorO",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PhraseError",
+            "printedName": "PhraseError",
+            "usr": "s:9PhraseSDK0A5ErrorP",
+            "mangledName": "$s9PhraseSDK0A5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhraseUpdateError",
+        "printedName": "PhraseUpdateError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "underlyingErrors",
+            "printedName": "underlyingErrors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Error]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PhraseSDK0A11UpdateErrorV16underlyingErrorsSays0D0_pGvp",
+            "mangledName": "$s9PhraseSDK0A11UpdateErrorV16underlyingErrorsSays0D0_pGvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Error]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A11UpdateErrorV16underlyingErrorsSays0D0_pGvg",
+                "mangledName": "$s9PhraseSDK0A11UpdateErrorV16underlyingErrorsSays0D0_pGvg",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "last",
+            "printedName": "last",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PhraseSDK0A11UpdateErrorV4lasts0D0_pSgvp",
+            "mangledName": "$s9PhraseSDK0A11UpdateErrorV4lasts0D0_pSgvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A11UpdateErrorV4lasts0D0_pSgvg",
+                "mangledName": "$s9PhraseSDK0A11UpdateErrorV4lasts0D0_pSgvg",
+                "moduleName": "PhraseSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PhraseSDK0A11UpdateErrorV16errorDescriptionSSSgvp",
+            "mangledName": "$s9PhraseSDK0A11UpdateErrorV16errorDescriptionSSSgvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A11UpdateErrorV16errorDescriptionSSSgvg",
+                "mangledName": "$s9PhraseSDK0A11UpdateErrorV16errorDescriptionSSSgvg",
+                "moduleName": "PhraseSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9PhraseSDK0A11UpdateErrorV",
+        "mangledName": "$s9PhraseSDK0A11UpdateErrorV",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PhraseError",
+            "printedName": "PhraseError",
+            "usr": "s:9PhraseSDK0A5ErrorP",
+            "mangledName": "$s9PhraseSDK0A5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Phrase",
+        "printedName": "Phrase",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configuration",
+            "printedName": "configuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PhraseConfiguration",
+                "printedName": "PhraseSDK.PhraseConfiguration",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PhraseSDK@objc(cs)Phrase(py)configuration",
+            "mangledName": "$s9PhraseSDK0A0C13configurationAA0A13ConfigurationCvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseConfiguration",
+                    "printedName": "PhraseSDK.PhraseConfiguration",
+                    "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)Phrase(im)configuration",
+                "mangledName": "$s9PhraseSDK0A0C13configurationAA0A13ConfigurationCvg",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseConfiguration",
+                    "printedName": "PhraseSDK.PhraseConfiguration",
+                    "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)Phrase(im)setConfiguration:",
+                "mangledName": "$s9PhraseSDK0A0C13configurationAA0A13ConfigurationCvs",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A0C13configurationAA0A13ConfigurationCvM",
+                "mangledName": "$s9PhraseSDK0A0C13configurationAA0A13ConfigurationCvM",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Phrase",
+                "printedName": "PhraseSDK.Phrase",
+                "usr": "c:@M@PhraseSDK@objc(cs)Phrase"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PhraseSDK@objc(cs)Phrase(cpy)shared",
+            "mangledName": "$s9PhraseSDK0A0C6sharedACvpZ",
+            "moduleName": "PhraseSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Phrase",
+                    "printedName": "PhraseSDK.Phrase",
+                    "usr": "c:@M@PhraseSDK@objc(cs)Phrase"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)Phrase(cm)shared",
+                "mangledName": "$s9PhraseSDK0A0C6sharedACvgZ",
+                "moduleName": "PhraseSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PhraseSDK@objc(cs)Phrase(py)sdkVersion",
+            "mangledName": "$s9PhraseSDK0A0C10sdkVersionSSvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)Phrase(im)sdkVersion",
+                "mangledName": "$s9PhraseSDK0A0C10sdkVersionSSvg",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(distributionID:environmentSecret:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PhraseSDK@objc(cs)Phrase(im)setupWithDistributionID:environmentSecret:",
+            "mangledName": "$s9PhraseSDK0A0C5setup14distributionID17environmentSecretySS_SStF",
+            "moduleName": "PhraseSDK",
+            "objc_name": "setupWithDistributionID:environmentSecret:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "localizedString",
+            "printedName": "localizedString(forKey:value:table:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PhraseSDK@objc(cs)Phrase(im)localizedStringForKey:value:table:",
+            "mangledName": "$s9PhraseSDK0A0C15localizedString6forKey5value5tableS2S_SSSgAHtF",
+            "moduleName": "PhraseSDK",
+            "objc_name": "localizedStringForKey:value:table:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearCache",
+            "printedName": "clearCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PhraseSDK@objc(cs)Phrase(im)clearCache",
+            "mangledName": "$s9PhraseSDK0A0C10clearCacheyyF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "downloadedLanguages",
+            "printedName": "downloadedLanguages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PhraseSDK@objc(cs)Phrase(py)downloadedLanguages",
+            "mangledName": "$s9PhraseSDK0A0C19downloadedLanguagesSaySSGvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)Phrase(im)downloadedLanguages",
+                "mangledName": "$s9PhraseSDK0A0C19downloadedLanguagesSaySSGvg",
+                "moduleName": "PhraseSDK",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentLanguageCode",
+            "printedName": "currentLanguageCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PhraseSDK@objc(cs)Phrase(py)currentLanguageCode",
+            "mangledName": "$s9PhraseSDK0A0C19currentLanguageCodeSSvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)Phrase(im)currentLanguageCode",
+                "mangledName": "$s9PhraseSDK0A0C19currentLanguageCodeSSvg",
+                "moduleName": "PhraseSDK",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updateTranslations",
+            "printedName": "updateTranslations(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PhraseUpdateError",
+                            "printedName": "PhraseSDK.PhraseUpdateError",
+                            "usr": "s:9PhraseSDK0A11UpdateErrorV"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PhraseSDK0A0C18updateTranslations17completionHandleryys6ResultOySbAA0A11UpdateErrorVGcSg_tKF",
+            "mangledName": "$s9PhraseSDK0A0C18updateTranslations17completionHandleryys6ResultOySbAA0A11UpdateErrorVGcSg_tKF",
+            "moduleName": "PhraseSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateTranslation",
+            "printedName": "updateTranslation(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PhraseUpdateError",
+                            "printedName": "PhraseSDK.PhraseUpdateError",
+                            "usr": "s:9PhraseSDK0A11UpdateErrorV"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PhraseSDK0A0C17updateTranslation17completionHandleryys6ResultOySbAA0A11UpdateErrorVGcSg_tKF",
+            "mangledName": "$s9PhraseSDK0A0C17updateTranslation17completionHandleryys6ResultOySbAA0A11UpdateErrorVGcSg_tKF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateTranslation",
+            "printedName": "updateTranslation(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PhraseUpdateError",
+                            "printedName": "PhraseSDK.PhraseUpdateError",
+                            "usr": "s:9PhraseSDK0A11UpdateErrorV"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PhraseSDK0A0C17updateTranslation3for17completionHandlerySS_ys6ResultOySbAA0A11UpdateErrorVGcSgtKF",
+            "mangledName": "$s9PhraseSDK0A0C17updateTranslation3for17completionHandlerySS_ys6ResultOySbAA0A11UpdateErrorVGcSgtKF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PhraseSDK@objc(cs)Phrase",
+        "mangledName": "$s9PhraseSDK0A0C",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhraseConfiguration",
+        "printedName": "PhraseConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debugMode",
+            "printedName": "debugMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(py)debugMode",
+            "mangledName": "$s9PhraseSDK0A13ConfigurationC9debugModeSbvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)debugMode",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC9debugModeSbvg",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)setDebugMode:",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC9debugModeSbvs",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A13ConfigurationC9debugModeSbvM",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC9debugModeSbvM",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeout",
+            "printedName": "timeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(py)timeout",
+            "mangledName": "$s9PhraseSDK0A13ConfigurationC7timeoutSdvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)timeout",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC7timeoutSdvg",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)setTimeout:",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC7timeoutSdvs",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A13ConfigurationC7timeoutSdvM",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC7timeoutSdvM",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appVersionOverride",
+            "printedName": "appVersionOverride",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(py)appVersionOverride",
+            "mangledName": "$s9PhraseSDK0A13ConfigurationC18appVersionOverrideSSSgvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)appVersionOverride",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC18appVersionOverrideSSSgvg",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)setAppVersionOverride:",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC18appVersionOverrideSSSgvs",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A13ConfigurationC18appVersionOverrideSSSgvM",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC18appVersionOverrideSSSgvM",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "localeOverride",
+            "printedName": "localeOverride",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(py)localeOverride",
+            "mangledName": "$s9PhraseSDK0A13ConfigurationC14localeOverrideSSSgvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)localeOverride",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC14localeOverrideSSSgvg",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)setLocaleOverride:",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC14localeOverrideSSSgvs",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A13ConfigurationC14localeOverrideSSSgvM",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC14localeOverrideSSSgvM",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apiHost",
+            "printedName": "apiHost",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PhraseAPIHosts",
+                "printedName": "PhraseSDK.PhraseAPIHosts",
+                "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(py)apiHost",
+            "mangledName": "$s9PhraseSDK0A13ConfigurationC7apiHostAA0A8APIHostsOvp",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseAPIHosts",
+                    "printedName": "PhraseSDK.PhraseAPIHosts",
+                    "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)apiHost",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC7apiHostAA0A8APIHostsOvg",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseAPIHosts",
+                    "printedName": "PhraseSDK.PhraseAPIHosts",
+                    "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)setApiHost:",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC7apiHostAA0A8APIHostsOvs",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A13ConfigurationC7apiHostAA0A8APIHostsOvM",
+                "mangledName": "$s9PhraseSDK0A13ConfigurationC7apiHostAA0A8APIHostsOvM",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PhraseConfiguration",
+                "printedName": "PhraseSDK.PhraseConfiguration",
+                "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration(im)init",
+            "mangledName": "$s9PhraseSDK0A13ConfigurationCACycfc",
+            "moduleName": "PhraseSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PhraseSDK@objc(cs)PhraseConfiguration",
+        "mangledName": "$s9PhraseSDK0A13ConfigurationC",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhraseAPIHosts",
+        "printedName": "PhraseAPIHosts",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseAPIHosts.Type) -> PhraseSDK.PhraseAPIHosts",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseAPIHosts",
+                    "printedName": "PhraseSDK.PhraseAPIHosts",
+                    "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseAPIHosts.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseAPIHosts",
+                        "printedName": "PhraseSDK.PhraseAPIHosts",
+                        "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts@PhraseAPIHostsDefault",
+            "mangledName": "$s9PhraseSDK0A8APIHostsO7defaultyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "us",
+            "printedName": "us",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhraseSDK.PhraseAPIHosts.Type) -> PhraseSDK.PhraseAPIHosts",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseAPIHosts",
+                    "printedName": "PhraseSDK.PhraseAPIHosts",
+                    "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhraseSDK.PhraseAPIHosts.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhraseAPIHosts",
+                        "printedName": "PhraseSDK.PhraseAPIHosts",
+                        "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts@PhraseAPIHostsUs",
+            "mangledName": "$s9PhraseSDK0A8APIHostsO2usyA2CmF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhraseSDK.PhraseAPIHosts?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhraseAPIHosts",
+                    "printedName": "PhraseSDK.PhraseAPIHosts",
+                    "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9PhraseSDK0A8APIHostsO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9PhraseSDK0A8APIHostsO8rawValueACSgSi_tcfc",
+            "moduleName": "PhraseSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PhraseSDK0A8APIHostsO8rawValueSivp",
+            "mangledName": "$s9PhraseSDK0A8APIHostsO8rawValueSivp",
+            "moduleName": "PhraseSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PhraseSDK0A8APIHostsO8rawValueSivg",
+                "mangledName": "$s9PhraseSDK0A8APIHostsO8rawValueSivg",
+                "moduleName": "PhraseSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@PhraseSDK@E@PhraseAPIHosts",
+        "mangledName": "$s9PhraseSDK0A8APIHostsO",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhraseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
+      "kind": "StringLiteral",
+      "offset": 771,
+      "length": 27,
+      "value": "\"https:\/\/ota.phraseapp.com\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 34,
+      "value": "\"PhraseSDKMainBundleProxyDisabled\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/PhraseCache.swift",
+      "kind": "BooleanLiteral",
+      "offset": 423,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
+      "kind": "StringLiteral",
+      "offset": 1134,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1725,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1807,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 39,
+      "value": "\"com.phrase.PhraseSDK.networkOperation\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 795,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 822,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 795,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 822,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 22,
+      "value": "\"PhraseSDK.PhraseNetworkOperation\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseVersionInformationStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 31,
+      "value": "\"com.phrase.PhraseSDK.Settings\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Models\/PhraseDeviceInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Models\/PhraseDeviceInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 483,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Models\/PhraseDeviceInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
+      "kind": "StringLiteral",
+      "offset": 1983,
+      "length": 236,
+      "value": "\"^(?<major>0|[1-9]\\d*)\\.(?<minor>0|[1-9]\\d*)\\.(?<patch>0|[1-9]\\d*)(?:-(?<prerelease>(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+(?<buildmetadata>[0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
+      "kind": "Array",
+      "offset": 2701,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
+      "kind": "Array",
+      "offset": 2750,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Models\/PhraseConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 459,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Models\/PhraseConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 833,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseAPIHosts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 282,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseAPIHosts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 282,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 8,
+      "value": "\".lproj\""
+    },
+    {
+      "filePath": "\/Users\/winkelsdorf\/Projects\/Phrase-ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
+      "kind": "StringLiteral",
+      "offset": 1554,
+      "length": 10,
+      "value": "\".nocache\""
+    }
+  ]
+}
