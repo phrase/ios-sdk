@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhraseSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -14,12 +14,7 @@ public enum PhraseSetupError : PhraseSDK.PhraseError {
   case notInitialized
   case missingDistributionID
   case missingEnvironmentSecret
-  case appVersionNotSemantic(underlyingError: Swift.Error)
-}
-extension PhraseSDK.PhraseSetupError : Foundation.LocalizedError {
-  public var errorDescription: Swift.String? {
-    get
-  }
+  case appVersionNotSemantic(underlyingError: any Swift.Error)
 }
 public enum PhraseSemanticVersionError : PhraseSDK.PhraseError {
   case appVersionOverrideNotSemantic
@@ -32,26 +27,16 @@ public enum PhraseSemanticVersionError : PhraseSDK.PhraseError {
     get
   }
 }
-extension PhraseSDK.PhraseSemanticVersionError : Foundation.LocalizedError {
-  public var errorDescription: Swift.String? {
-    get
-  }
-}
 public enum PhraseInternalError : PhraseSDK.PhraseError {
   case dataUrlError
   case apiUrlError
   case selfIsNil
   case inconsistentUpdate
   case versionStorageUnavailable
-  case unknownError(underlyingError: Swift.Error)
-}
-extension PhraseSDK.PhraseInternalError : Foundation.LocalizedError {
-  public var errorDescription: Swift.String? {
-    get
-  }
+  case unknownError(underlyingError: any Swift.Error)
 }
 public enum PhraseNetworkError : PhraseSDK.PhraseError {
-  case connectionError(underlyingError: Swift.Error)
+  case connectionError(underlyingError: any Swift.Error)
   case responseNotHTTP
   case responseUrlMissing
   case distributionNotFound
@@ -59,19 +44,9 @@ public enum PhraseNetworkError : PhraseSDK.PhraseError {
   case responseStatusInvalid(code: Swift.Int, message: Swift.String)
   case responseDataInvalid
 }
-extension PhraseSDK.PhraseNetworkError : Foundation.LocalizedError {
-  public var errorDescription: Swift.String? {
-    get
-  }
-}
 public struct PhraseUpdateError : PhraseSDK.PhraseError {
-  public let underlyingErrors: [Swift.Error]
-  public var last: Swift.Error? {
-    get
-  }
-}
-extension PhraseSDK.PhraseUpdateError : Foundation.LocalizedError {
-  public var errorDescription: Swift.String? {
+  public let underlyingErrors: [any Swift.Error]
+  public var last: (any Swift.Error)? {
     get
   }
 }
@@ -95,12 +70,38 @@ extension PhraseSDK.Phrase {
   final public func updateTranslations(completionHandler: ((Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> Swift.Void)? = nil) throws
   @available(swift, obsoleted: 1.0)
   @available(*, deprecated, renamed: "updateTranslation")
-  @objc final public func updateTranslations(completionHandler: ((Swift.Bool, Swift.Error?) -> Swift.Void)?)
+  @objc final public func updateTranslations(completionHandler: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)?)
+}
+extension PhraseSDK.PhraseSetupError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension PhraseSDK.PhraseSemanticVersionError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension PhraseSDK.PhraseInternalError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension PhraseSDK.PhraseNetworkError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension PhraseSDK.PhraseUpdateError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
 }
 @_inheritsConvenienceInitializers @objc final public class PhraseConfiguration : ObjectiveC.NSObject {
   @objc final public var debugMode: Swift.Bool
   @objc final public var timeout: Foundation.TimeInterval
   @objc final public var appVersionOverride: Swift.String?
+  @objc final public var disableCaching: Swift.Bool
   @objc final public var localeOverride: Swift.String?
   @objc final public var apiHost: PhraseSDK.PhraseAPIHosts
   @objc override dynamic public init()

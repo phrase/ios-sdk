@@ -8,5 +8,6 @@
   "3.0.0": "https://github.com/phrase/ios-sdk/releases/download/3.0.0/PhraseSDK.framework.zip",
   "3.0.1": "https://github.com/phrase/ios-sdk/releases/download/3.0.1/PhraseSDK.framework.zip?alt=https://github.com/phrase/ios-sdk/releases/download/3.0.1/PhraseSDK.xcframework.zip",
   "4.0.1": "https://github.com/phrase/ios-sdk/releases/download/4.0.1/PhraseSDK.xcframework.zip",
-  "4.1.0": "https://github.com/phrase/ios-sdk/releases/download/4.1.0/PhraseSDK.xcframework.zip"
+  "4.1.0": "https://github.com/phrase/ios-sdk/releases/download/4.1.0/PhraseSDK.xcframework.zip",
+  "4.2.0": "https://github.com/phrase/ios-sdk/releases/download/4.2.0/PhraseSDK.xcframework.zip"
 }
