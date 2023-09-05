@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhraseSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -103,6 +103,7 @@ extension PhraseSDK.PhraseUpdateError : Foundation.LocalizedError {
   @objc final public var appVersionOverride: Swift.String?
   @objc final public var disableCaching: Swift.Bool
   @objc final public var localeOverride: Swift.String?
+  @objc final public var ignoreOtherTables: Swift.Bool
   @objc final public var apiHost: PhraseSDK.PhraseAPIHosts
   @objc override dynamic public init()
   @objc deinit
