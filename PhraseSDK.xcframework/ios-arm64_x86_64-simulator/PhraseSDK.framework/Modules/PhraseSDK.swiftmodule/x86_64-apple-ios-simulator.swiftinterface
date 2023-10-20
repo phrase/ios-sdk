@@ -33,6 +33,9 @@ public enum PhraseInternalError : PhraseSDK.PhraseError {
   case selfIsNil
   case inconsistentUpdate
   case versionStorageUnavailable
+  case downloadCountMismatch(count: Swift.Int)
+  case versionCodeMismatch
+  case languageCodeMismatch
   case unknownError(underlyingError: any Swift.Error)
 }
 public enum PhraseNetworkError : PhraseSDK.PhraseError {
