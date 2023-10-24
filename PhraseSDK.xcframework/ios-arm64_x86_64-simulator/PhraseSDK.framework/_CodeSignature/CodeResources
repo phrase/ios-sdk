@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pK+3E7T0v2mksRbql/dZ6eMPc+s=
+		jLdi3ff0WmWrNknBDirvLwwOG9U=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+EIQocQwskYQl5hLhKlQ+GE4QWg=
+		6XZPD640qLiPqH2vhdSkrIB2tdc=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		D7MW5vBMYOD824NvIogndfngSPo=
+		jS6MMLt6/R3RTgu2gn9KiY2zU90=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XYWO2uoWaJ8buKh5rhxiE2tkeGHWVA8Byw6oEp3ewFw=
+			Jf2ALId0lSabWg0KB/Mb1KZCn5MSDZyCcWu7L1c9tb8=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ocyoqKdmAWjnsRekaC8L4l+egF0cD21I6cDKTST368E=
+			QW+fT+y8tgqbUmllW59iVpE1tM9rl340hxiwSE6W4pQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
