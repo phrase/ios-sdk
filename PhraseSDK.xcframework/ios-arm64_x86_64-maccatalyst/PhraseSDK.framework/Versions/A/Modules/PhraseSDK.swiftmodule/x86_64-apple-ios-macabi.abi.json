@@ -3951,83 +3951,90 @@
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "StringLiteral",
       "offset": 1178,
+      "length": 18,
+      "value": "\"platform_version\""
+    },
+    {
+      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
+      "kind": "StringLiteral",
+      "offset": 1292,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "StringLiteral",
-      "offset": 1282,
+      "offset": 1396,
       "length": 13,
       "value": "\"app_version\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "StringLiteral",
-      "offset": 1435,
+      "offset": 1549,
       "length": 19,
       "value": "\"device_identifier\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "StringLiteral",
-      "offset": 1738,
+      "offset": 1852,
       "length": 13,
       "value": "\"last_update\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "StringLiteral",
-      "offset": 1895,
+      "offset": 2009,
       "length": 17,
       "value": "\"current_version\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "BooleanLiteral",
-      "offset": 2896,
+      "offset": 3010,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "BooleanLiteral",
-      "offset": 2982,
+      "offset": 3096,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "BooleanLiteral",
-      "offset": 3062,
+      "offset": 3176,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "StringLiteral",
-      "offset": 3212,
+      "offset": 3326,
       "length": 9,
       "value": "\"strings\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "BooleanLiteral",
-      "offset": 3236,
+      "offset": 3350,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "StringLiteral",
-      "offset": 3287,
+      "offset": 3401,
       "length": 13,
       "value": "\"stringsdict\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
       "kind": "BooleanLiteral",
-      "offset": 3315,
+      "offset": 3429,
       "length": 5,
       "value": "false"
     },
@@ -4643,7 +4650,7 @@
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Models\/PhraseDeviceInformation.swift",
       "kind": "StringLiteral",
-      "offset": 1140,
+      "offset": 1473,
       "length": 5,
       "value": "\"iOS\""
     },

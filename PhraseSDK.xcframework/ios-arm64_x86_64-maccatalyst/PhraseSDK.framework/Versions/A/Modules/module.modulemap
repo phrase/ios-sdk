@@ -1,7 +1,7 @@
 framework module PhraseSDK {
   umbrella header "PhraseSDK.h"
-
   export *
+
   module * { export * }
 }
 
