@@ -1,11 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 
 import PackageDescription
 
 let package = Package(
     name: "PhraseSDK",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PhraseSDK",
-            url: "https://github.com/phrase/ios-sdk/releases/download/4.3.4/PhraseSDK.xcframework.zip",
-            checksum: "d90a1fd951ed5ac4788de89ea6500c84d8f31ddb2fe1913b4e96e56411797726"
+            url: "https://github.com/phrase/ios-sdk/releases/download/4.4.0/PhraseSDK.xcframework.zip",
+            checksum: "35fa697f6cf99f9b69617717d714070493e5c6d9b07065d8a4fbfe2ccca16110"
         ),
     ]
 )
