@@ -228,12 +228,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PhraseSDK.PhraseSetupError.Type) -> (Swift.Error) -> PhraseSDK.PhraseSetupError",
+                "printedName": "(PhraseSDK.PhraseSetupError.Type) -> (any Swift.Error) -> PhraseSDK.PhraseSetupError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> PhraseSDK.PhraseSetupError",
+                    "printedName": "(any Swift.Error) -> PhraseSDK.PhraseSetupError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -244,12 +244,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(underlyingError: Swift.Error)",
+                        "printedName": "(underlyingError: any Swift.Error)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -1103,12 +1103,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PhraseSDK.PhraseInternalError.Type) -> (Swift.Error) -> PhraseSDK.PhraseInternalError",
+                "printedName": "(PhraseSDK.PhraseInternalError.Type) -> (any Swift.Error) -> PhraseSDK.PhraseInternalError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> PhraseSDK.PhraseInternalError",
+                    "printedName": "(any Swift.Error) -> PhraseSDK.PhraseInternalError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1119,12 +1119,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(underlyingError: Swift.Error)",
+                        "printedName": "(underlyingError: any Swift.Error)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -1266,12 +1266,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PhraseSDK.PhraseNetworkError.Type) -> (Swift.Error) -> PhraseSDK.PhraseNetworkError",
+                "printedName": "(PhraseSDK.PhraseNetworkError.Type) -> (any Swift.Error) -> PhraseSDK.PhraseNetworkError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> PhraseSDK.PhraseNetworkError",
+                    "printedName": "(any Swift.Error) -> PhraseSDK.PhraseNetworkError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1282,12 +1282,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(underlyingError: Swift.Error)",
+                        "printedName": "(underlyingError: any Swift.Error)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -1695,12 +1695,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.Error]",
+                "printedName": "[any Swift.Error]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1727,12 +1727,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Error]",
+                    "printedName": "[any Swift.Error]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1756,12 +1756,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1785,12 +1785,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -3864,347 +3864,11 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5008,
-      "length": 3,
-      "value": "304"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5150,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5445,
-      "length": 4,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5735,
-      "length": 3,
-      "value": "404"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5771,
-      "length": 24,
-      "value": "\"distribution not found\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6018,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7588,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7672,
-      "length": 9,
-      "value": "\"version\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8308,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8536,
-      "length": 13,
-      "value": "\"min_version\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8703,
-      "length": 13,
-      "value": "\"max_version\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "StringLiteral",
-      "offset": 1083,
-      "length": 8,
-      "value": "\"client\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "StringLiteral",
-      "offset": 1178,
-      "length": 18,
-      "value": "\"platform_version\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "StringLiteral",
-      "offset": 1292,
-      "length": 13,
-      "value": "\"sdk_version\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "StringLiteral",
-      "offset": 1396,
-      "length": 13,
-      "value": "\"app_version\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "StringLiteral",
-      "offset": 1549,
-      "length": 19,
-      "value": "\"device_identifier\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "StringLiteral",
-      "offset": 1852,
-      "length": 13,
-      "value": "\"last_update\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "StringLiteral",
-      "offset": 2009,
-      "length": 17,
-      "value": "\"current_version\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3010,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3096,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3176,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "StringLiteral",
-      "offset": 3326,
-      "length": 9,
-      "value": "\"strings\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3350,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "StringLiteral",
-      "offset": 3401,
-      "length": 13,
-      "value": "\"stringsdict\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseRemoteURLs.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3429,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseLogging.swift",
-      "kind": "BooleanLiteral",
-      "offset": 826,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseLogging.swift",
-      "kind": "StringLiteral",
-      "offset": 895,
-      "length": 26,
-      "value": "\"[PhraseSDK] \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseLogging.swift",
-      "kind": "StringLiteral",
-      "offset": 920,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseLogging.swift",
-      "kind": "StringLiteral",
-      "offset": 1649,
-      "length": 37,
-      "value": "\"Requesting file: \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseLogging.swift",
-      "kind": "StringLiteral",
-      "offset": 1685,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 34,
       "value": "\"PhraseSDKMainBundleProxyDisabled\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 833,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1026,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 1058,
-      "length": 90,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 1081,
-      "length": 2,
-      "value": "\" is set to `YES` in your `Info.plist`. Main bundle proxy disabled.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1169,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 1326,
-      "length": 38,
-      "value": "\"Error registering main bundle proxy.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1385,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 1537,
-      "length": 46,
-      "value": "\"Main bundle proxy already enabled. Skipping.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1604,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1786,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 1820,
-      "length": 27,
-      "value": "\"Main bundle proxy enabled\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+BundleProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1864,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+TranslationLogic.swift",
-      "kind": "BooleanLiteral",
-      "offset": 812,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+TranslationLogic.swift",
-      "kind": "StringLiteral",
-      "offset": 4373,
-      "length": 13,
-      "value": "\"Localizable\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+TranslationLogic.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4512,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+TranslationLogic.swift",
-      "kind": "StringLiteral",
-      "offset": 4961,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+TranslationLogic.swift",
-      "kind": "Array",
-      "offset": 7877,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+TranslationLogic.swift",
-      "kind": "Array",
-      "offset": 7953,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseCache.swift",
@@ -4214,53 +3878,32 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseCache.swift",
-      "kind": "BooleanLiteral",
-      "offset": 602,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
       "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 1154,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1177,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
       "kind": "BooleanLiteral",
-      "offset": 1725,
+      "offset": 1745,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
       "kind": "BooleanLiteral",
-      "offset": 1807,
+      "offset": 1827,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
-      "kind": "StringLiteral",
-      "offset": 3470,
-      "length": 33,
-      "value": "\"PhraseSDK Version \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
-      "kind": "StringLiteral",
-      "offset": 3502,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
@@ -4299,255 +3942,10 @@
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1486,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
-      "kind": "Array",
-      "offset": 2898,
-      "length": 40,
-      "value": "[\"isReady\", \"isFinished\", \"isExecuting\"]"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
-      "kind": "Array",
-      "offset": 2978,
-      "length": 17,
-      "value": "[\\.<NOT_IMPLEMENTED>]"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
       "kind": "StringLiteral",
       "offset": 378,
       "length": 22,
       "value": "\"PhraseSDK.PhraseNetworkOperation\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+Deprecations.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3436,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+Deprecations.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3606,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 301,
-      "length": 18,
-      "value": "\"Not initialized.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 384,
-      "length": 26,
-      "value": "\"Missing distribution ID.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 478,
-      "length": 29,
-      "value": "\"Missing environment secret.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 572,
-      "length": 63,
-      "value": "\"App version is not semantic. See underlyingError for Details.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 847,
-      "length": 37,
-      "value": "\"appVersionOverride is not semantic.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 961,
-      "length": 54,
-      "value": "\"CFBundleShortVersionString is missing in Info.plist.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 1081,
-      "length": 43,
-      "value": "\"CFBundleVersion is missing in Info.plist.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 1196,
-      "length": 70,
-      "value": "\"Semantic version cannot be composed from CFBundleShortVersionString \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 1289,
-      "length": 35,
-      "value": "\"and CFBundleVersion of Info.plist\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 1512,
-      "length": 49,
-      "value": "\"Error accessing the translation data directory.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 1616,
-      "length": 33,
-      "value": "\"Error constructing the API url.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 1702,
-      "length": 47,
-      "value": "\"Unexpectedly found nil while unwrapping self.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 1811,
-      "length": 64,
-      "value": "\"Inconsistent update. API has returned different update states.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 1944,
-      "length": 39,
-      "value": "\"The version storage is not available.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2060,
-      "length": 57,
-      "value": "\"Unknown Error - \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2116,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2200,
-      "length": 56,
-      "value": "\"Expected 2 downloads, but received \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2244,
-      "length": 9,
-      "value": "\" downloads.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2319,
-      "length": 47,
-      "value": "\"The downloaded files have different versions.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2430,
-      "length": 52,
-      "value": "\"The downloaded files have different language codes\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2693,
-      "length": 59,
-      "value": "\"Connection Error. \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2751,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2811,
-      "length": 27,
-      "value": "\"API response is not HTTP.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2900,
-      "length": 31,
-      "value": "\"API response returned no URL.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 2995,
-      "length": 25,
-      "value": "\"Distribution not found.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 3085,
-      "length": 53,
-      "value": "\"The API repsonse did not contain a release version.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 3222,
-      "length": 54,
-      "value": "\"API response status is invalid. \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 3262,
-      "length": 1,
-      "value": "\" - \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 3275,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/PhraseError+LocalizedError.swift",
-      "kind": "StringLiteral",
-      "offset": 3339,
-      "length": 31,
-      "value": "\"API response data is invalid.\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseVersionInformationStorage.swift",
@@ -4555,83 +3953,6 @@
       "offset": 367,
       "length": 31,
       "value": "\"com.phrase.PhraseSDK.Settings\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseVersionInformationStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1016,
-      "length": 42,
-      "value": "\"PhraseSDK_\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseVersionInformationStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1044,
-      "length": 13,
-      "value": "\"_Translations\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseVersionInformationStorage.swift",
-      "kind": "Dictionary",
-      "offset": 2345,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseSemanticVersion.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1022,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseSemanticVersion.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1207,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseSemanticVersion.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1342,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseSemanticVersion.swift",
-      "kind": "StringLiteral",
-      "offset": 2262,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseSemanticVersion.swift",
-      "kind": "StringLiteral",
-      "offset": 2657,
-      "length": 17,
-      "value": "\"CFBundleVersion\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseSemanticVersion.swift",
-      "kind": "StringLiteral",
-      "offset": 3031,
-      "length": 33,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseSemanticVersion.swift",
-      "kind": "StringLiteral",
-      "offset": 3047,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/PhraseSemanticVersion.swift",
-      "kind": "StringLiteral",
-      "offset": 3063,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Models\/PhraseDeviceInformation.swift",
@@ -4676,272 +3997,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2785,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2799,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2813,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 2816,
-      "length": 33,
-      "value": "\"Negative versioning is invalid.\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "Array",
-      "offset": 3301,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "Array",
-      "offset": 3523,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 3700,
-      "length": 7,
-      "value": "\"major\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 3857,
-      "length": 7,
-      "value": "\"minor\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 4014,
-      "length": 7,
-      "value": "\"patch\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 4563,
-      "length": 12,
-      "value": "\"prerelease\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 4683,
-      "length": 3,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "Array",
-      "offset": 4760,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 4846,
-      "length": 15,
-      "value": "\"buildmetadata\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 4975,
-      "length": 3,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "Array",
-      "offset": 5055,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 5837,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 5846,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 5855,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 5864,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 5939,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 5985,
-      "length": 3,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 6076,
-      "length": 3,
-      "value": "\"+\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 6125,
-      "length": 3,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7392,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7536,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8369,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8508,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 9408,
-      "length": 53,
-      "value": "\"contains(_:) is unavailable, use contains(version:)\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 9751,
-      "length": 53,
-      "value": "\"contains(_:) is unavailable, use contains(version:)\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10239,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10544,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Version.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10629,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Bundle+Helper.swift",
-      "kind": "StringLiteral",
-      "offset": 571,
-      "length": 7,
-      "value": "\"lproj\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Bundle+Helper.swift",
-      "kind": "StringLiteral",
-      "offset": 989,
-      "length": 6,
-      "value": "\"Base\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Bundle+Helper.swift",
-      "kind": "StringLiteral",
-      "offset": 1012,
-      "length": 7,
-      "value": "\"lproj\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Bundle+Helper.swift",
-      "kind": "StringLiteral",
-      "offset": 1563,
-      "length": 3,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/Bundle+Helper.swift",
-      "kind": "StringLiteral",
-      "offset": 1574,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Helper\/URL+IsDirectory.swift",
-      "kind": "BooleanLiteral",
-      "offset": 297,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Models\/PhraseConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 459,
@@ -4970,139 +4025,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5710,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5880,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6942,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7112,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11315,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11670,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11690,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11867,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "StringLiteral",
-      "offset": 12247,
-      "length": 92,
-      "value": "\"LanguageCodeMismatch: \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "StringLiteral",
-      "offset": 12302,
-      "length": 2,
-      "value": "\" == \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "StringLiteral",
-      "offset": 12338,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "StringLiteral",
-      "offset": 12636,
-      "length": 81,
-      "value": "\"versionCodeMismatch: \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "StringLiteral",
-      "offset": 12685,
-      "length": 2,
-      "value": "\" == \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "StringLiteral",
-      "offset": 12716,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13791,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "StringLiteral",
-      "offset": 13916,
-      "length": 60,
-      "value": "\"Only the first file was updated: \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "StringLiteral",
-      "offset": 13975,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "StringLiteral",
-      "offset": 14162,
-      "length": 61,
-      "value": "\"Only the second file was updated: \""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase+UpdateTranslation.swift",
-      "kind": "StringLiteral",
-      "offset": 14222,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseAPIHosts.swift",
       "kind": "IntegerLiteral",
       "offset": 282,
@@ -5115,20 +4037,6 @@
       "offset": 282,
       "length": 2,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseAPIHosts.swift",
-      "kind": "StringLiteral",
-      "offset": 498,
-      "length": 27,
-      "value": "\"https:\/\/ota.eu.phrase.com\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseAPIHosts.swift",
-      "kind": "StringLiteral",
-      "offset": 571,
-      "length": 27,
-      "value": "\"https:\/\/ota.us.phrase.com\""
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
@@ -5136,41 +4044,6 @@
       "offset": 392,
       "length": 8,
       "value": "\".lproj\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 777,
-      "length": 22,
-      "value": "\"com.phrase.phraseSDK\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "BooleanLiteral",
-      "offset": 814,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 860,
-      "length": 14,
-      "value": "\"Translations\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "BooleanLiteral",
-      "offset": 889,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1217,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
@@ -5195,122 +4068,10 @@
     },
     {
       "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 2657,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 2882,
-      "length": 13,
-      "value": "\"Localizable\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 2907,
-      "length": 10,
-      "value": "\".strings\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2932,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 2984,
-      "length": 13,
-      "value": "\"Localizable\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 3009,
-      "length": 14,
-      "value": "\".stringsdict\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3038,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "BooleanLiteral",
       "offset": 3649,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3796,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 3855,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 3929,
-      "length": 13,
-      "value": "\"Localizable\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 3954,
-      "length": 3,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4008,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "Array",
-      "offset": 4375,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4917,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5111,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/carstenschlobohm\/Projects\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 5300,
-      "length": 2,
-      "value": "\"\""
     }
   ]
 }
