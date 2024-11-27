@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PhraseSDK",
-            url: "https://github.com/phrase/ios-sdk/releases/download/4.4.1/PhraseSDK.xcframework.zip",
-            checksum: "f6ee21bc30c603819e1bf953d71418fdc36c9556049bc51bd12a13c58afded16"
+            url: "https://github.com/phrase/ios-sdk/releases/download/4.4.2/PhraseSDK.xcframework.zip",
+            checksum: "e2e05757da1b04f489edc46cf645dfa1d04cf13200b6b020d0d4c3510cee42b4"
         ),
     ]
 )
