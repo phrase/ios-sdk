@@ -8,12 +8,12 @@ Pod::Spec.new do |s|
   s.author              = { 'Phrase GmbH' => 'support@phrase.com' }
 
   s.source              = { :git => 'https://github.com/phrase/ios-sdk.git', :tag => s.version }
-  s.platform            = :ios, '12.0'
+  s.platform            = :ios, '15.0'
 
   s.frameworks          = 'Foundation', 'UIKit'
   s.preserve_paths      = 'PhraseSDK.xcframework'
   s.vendored_frameworks = 'PhraseSDK.xcframework'
   
-  s.swift_version       = '5.0'
+  s.swift_version       = '6.0'
   s.requires_arc        = true
 end
