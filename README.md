@@ -13,7 +13,7 @@ Head over to the Phrase Help Center to learn about this feature and how to use i
 
 ### Before You Begin
 
-Here’s what you need to do before updating to SDK `5.x.x`:
+Here’s what you need to know before updating to SDK `5.x.x`:
 
 - The minimum supported iOS version for SDK `5.x.x` is **iOS 15.0**.
 - SDK `5.x.x` requires **Swift 6.0** or later.
