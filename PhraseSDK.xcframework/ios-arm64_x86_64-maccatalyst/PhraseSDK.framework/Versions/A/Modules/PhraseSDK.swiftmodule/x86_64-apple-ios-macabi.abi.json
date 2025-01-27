@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "PhraseSDK",
+    "printedName": "PhraseSDK",
     "children": [
       {
         "kind": "Import",
@@ -81,10 +81,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -92,6 +99,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
           }
         ]
       },
@@ -348,6 +362,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "PhraseError",
@@ -706,6 +734,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1225,6 +1267,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "PhraseError",
             "printedName": "PhraseError",
             "usr": "s:9PhraseSDK0A5ErrorP",
@@ -1654,6 +1710,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "PhraseError",
             "printedName": "PhraseError",
             "usr": "s:9PhraseSDK0A5ErrorP",
@@ -1875,6 +1945,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "PhraseError",
             "printedName": "PhraseError",
             "usr": "s:9PhraseSDK0A5ErrorP",
@@ -1949,6 +2033,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "Nonisolated",
               "ObjC",
               "RawDocComment"
             ],
@@ -2248,6 +2333,7 @@
               "Final",
               "AccessControl",
               "ObjC",
+              "Custom",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -2280,6 +2366,7 @@
               "Final",
               "AccessControl",
               "ObjC",
+              "Custom",
               "RawDocComment"
             ],
             "accessors": [
@@ -2335,6 +2422,7 @@
               "Final",
               "AccessControl",
               "ObjC",
+              "Custom",
               "RawDocComment"
             ],
             "accessors": [
@@ -2364,126 +2452,19 @@
           },
           {
             "kind": "Function",
-            "name": "updateTranslations",
-            "printedName": "updateTranslations(completionHandler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Result",
-                        "printedName": "Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "PhraseUpdateError",
-                            "printedName": "PhraseSDK.PhraseUpdateError",
-                            "usr": "s:9PhraseSDK0A11UpdateErrorV"
-                          }
-                        ],
-                        "usr": "s:s6ResultO"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9PhraseSDK0A0C18updateTranslations17completionHandleryys6ResultOySbAA0A11UpdateErrorVGcSg_tKF",
-            "mangledName": "$s9PhraseSDK0A0C18updateTranslations17completionHandleryys6ResultOySbAA0A11UpdateErrorVGcSg_tKF",
-            "moduleName": "PhraseSDK",
-            "deprecated": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "Available",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "updateTranslation",
-            "printedName": "updateTranslation(completionHandler:)",
+            "printedName": "updateTranslation()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Result",
-                        "printedName": "Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "PhraseUpdateError",
-                            "printedName": "PhraseSDK.PhraseUpdateError",
-                            "usr": "s:9PhraseSDK0A11UpdateErrorV"
-                          }
-                        ],
-                        "usr": "s:s6ResultO"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9PhraseSDK0A0C17updateTranslation17completionHandleryys6ResultOySbAA0A11UpdateErrorVGcSg_tKF",
-            "mangledName": "$s9PhraseSDK0A0C17updateTranslation17completionHandleryys6ResultOySbAA0A11UpdateErrorVGcSg_tKF",
+            "usr": "s:9PhraseSDK0A0C17updateTranslationSbyYaAA0A11UpdateErrorVYKF",
+            "mangledName": "$s9PhraseSDK0A0C17updateTranslationSbyYaAA0A11UpdateErrorVYKF",
             "moduleName": "PhraseSDK",
             "declAttributes": [
               "Final",
@@ -2497,64 +2478,24 @@
           {
             "kind": "Function",
             "name": "updateTranslation",
-            "printedName": "updateTranslation(for:completionHandler:)",
+            "printedName": "updateTranslation(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Result",
-                        "printedName": "Swift.Result<Swift.Bool, PhraseSDK.PhraseUpdateError>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "PhraseUpdateError",
-                            "printedName": "PhraseSDK.PhraseUpdateError",
-                            "usr": "s:9PhraseSDK0A11UpdateErrorV"
-                          }
-                        ],
-                        "usr": "s:s6ResultO"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9PhraseSDK0A0C17updateTranslation3for17completionHandlerySS_ys6ResultOySbAA0A11UpdateErrorVGcSgtKF",
-            "mangledName": "$s9PhraseSDK0A0C17updateTranslation3for17completionHandlerySS_ys6ResultOySbAA0A11UpdateErrorVGcSgtKF",
+            "usr": "s:9PhraseSDK0A0C17updateTranslation3forSbSS_tYaAA0A11UpdateErrorVYKF",
+            "mangledName": "$s9PhraseSDK0A0C17updateTranslation3forSbSS_tYaAA0A11UpdateErrorVYKF",
             "moduleName": "PhraseSDK",
             "declAttributes": [
               "Final",
@@ -2583,6 +2524,27 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2632,26 +2594,6 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PhraseSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PhraseSDK",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -3559,6 +3501,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3803,6 +3759,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3879,78 +3849,29 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
-      "kind": "StringLiteral",
-      "offset": 1154,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
-      "kind": "StringLiteral",
-      "offset": 1177,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
       "kind": "BooleanLiteral",
-      "offset": 1745,
+      "offset": 1048,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
       "kind": "BooleanLiteral",
-      "offset": 1827,
+      "offset": 1565,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 549,
-      "length": 39,
-      "value": "\"com.phrase.PhraseSDK.networkOperation\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 795,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 822,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 795,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 822,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseNetworkOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 378,
-      "length": 22,
-      "value": "\"PhraseSDK.PhraseNetworkOperation\""
+      "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Phrase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1667,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseVersionInformationStorage.swift",
       "kind": "StringLiteral",
-      "offset": 367,
+      "offset": 393,
       "length": 31,
       "value": "\"com.phrase.PhraseSDK.Settings\""
     },
@@ -3971,7 +3892,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Models\/PhraseDeviceInformation.swift",
       "kind": "StringLiteral",
-      "offset": 1473,
+      "offset": 1495,
       "length": 5,
       "value": "\"iOS\""
     },
@@ -4032,44 +3953,37 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Network\/PhraseAPIHosts.swift",
-      "kind": "IntegerLiteral",
-      "offset": 282,
-      "length": 2,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "StringLiteral",
-      "offset": 392,
+      "offset": 408,
       "length": 8,
       "value": "\".lproj\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1527,
+      "offset": 1539,
       "length": 10,
       "value": "\".nocache\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "BooleanLiteral",
-      "offset": 1961,
+      "offset": 1973,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "BooleanLiteral",
-      "offset": 2453,
+      "offset": 2465,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "BooleanLiteral",
-      "offset": 3649,
+      "offset": 3661,
       "length": 5,
       "value": "false"
     }

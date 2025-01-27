@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.swiftlint.yml</key>
-		<data>
-		jYzinMusZtlFaH+GNxnXGRC+XZo=
-		</data>
 		<key>Headers/PhraseSDK-Swift.h</key>
 		<data>
-		vtau+jLQPRlLxKHM+jp/z30BYS0=
+		kcxv3rFm15FEuBYI6hXhDPKyUEw=
 		</data>
 		<key>Headers/PhraseSDK.h</key>
 		<data>
@@ -18,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kOoQAh3FmeaSvR1s/gO3W41MWpI=
+		jw8bwKoiQPWr1YwlGkrjoD2EYIc=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lM2H6Na8UdvcLCVhFEbFWs9OErM=
+		u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KfGOUjhvBCvgHtsnVLuxoFUjmFc=
+		q9yGUy13/gthq9leEAS0KgbBn7k=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+6wVSKWP6D/0al2zUvJItyec22M=
+		kGCINhZ+eoRinC2QjBEvktRMOCQ=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KfGOUjhvBCvgHtsnVLuxoFUjmFc=
+		q9yGUy13/gthq9leEAS0KgbBn7k=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		G5LddszsDgqk9YwkUwJ8KoGTg5M=
+		mEbWxdzgLI6W8jsbLPrwjnDTnrs=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lM2H6Na8UdvcLCVhFEbFWs9OErM=
+		u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		T8vHOLgByWpmBjsu6c6kqbu0F2E=
+		bYCBNad8LuxTxvETl8r43Pk6N+Q=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dWnSQMrstZx7wfuI4PcQr3UstxE=
+		iaH4DqiYaKNEY8MDeQsdN4qP+tM=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		T8vHOLgByWpmBjsu6c6kqbu0F2E=
+		bYCBNad8LuxTxvETl8r43Pk6N+Q=
 		</data>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		w9nYDp4Ac8FmEQxm7YxtQ6GsVio=
+		vQrl7I48BIew8fbAOFZp1larH7c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,18 +67,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>.swiftlint.yml</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iSk3hGYvjI9PnQO5euRkfJ2Adcjb6wgMjk/MGnpAcTc=
-			</data>
-		</dict>
 		<key>Headers/PhraseSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sLEfRvanLPvbNXljAsJDiR/ielmPv6vKOrSNa9hDWlM=
+			330KfWNb66TlmvLSXHeQMNV3KeJtKk8enFi+7MsRGcc=
 			</data>
 		</dict>
 		<key>Headers/PhraseSDK.h</key>
@@ -96,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/JHeV3mzb/hcarBmcAJqpfslDueSfmFjFZt2Sy9Wf1A=
+			rvIci3T9zhjlEi5zfWvDe+XaPg1NVHH23exw32WoLHY=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sxXG55Bj1xP3XmSPrBEAAzPWI25mLS1NABC6OAfJIeU=
+			rRAQYLrbQaKMXkzg7BcS3gLVSkGWh00FhUApRJuKmEM=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L9YOPrE34rScl1aGHHu4gPePHS2GEmxyl1EJCvVDC9I=
+			Y+0IJ/G3DcB6fepaWLQM8jU5nCDvX5AbqemKU+aqXHM=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sxXG55Bj1xP3XmSPrBEAAzPWI25mLS1NABC6OAfJIeU=
+			rRAQYLrbQaKMXkzg7BcS3gLVSkGWh00FhUApRJuKmEM=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hgrEBvgnrUCg8k9YVI3CzqYNLcs8ZevItU3ZIswqv/0=
+			vlYxDnOdr5VScOkprMuec/uMyU4pE94sRPNm7bgtG2U=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/JHeV3mzb/hcarBmcAJqpfslDueSfmFjFZt2Sy9Wf1A=
+			rvIci3T9zhjlEi5zfWvDe+XaPg1NVHH23exw32WoLHY=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sXl1HAR/tDoU7sMImhl+oJT7Ogxd+kx5VdTNJ9Bf4qg=
+			Z1NGmt5S6hQeCsyn/3R2Z7lgKLYpokTiz0jNM4pS6Aw=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r6/U3vXbpMFJJznrNBXOPjov+DP3Wki3ZFgGDAwmePI=
+			YyVQWtYdfl/XM0J5j1GQVsG+KcV+CYAcp/u2bogVldM=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sXl1HAR/tDoU7sMImhl+oJT7Ogxd+kx5VdTNJ9Bf4qg=
+			Z1NGmt5S6hQeCsyn/3R2Z7lgKLYpokTiz0jNM4pS6Aw=
 			</data>
 		</dict>
 		<key>Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GsyCQabsvHuFXOm/U9D+XMOXq9DbPJCMTuPP6/QYcnM=
+			kbmgNhnFsr2MIhfHESBKFLYtKbyzUVpLY27GPe2/Af4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

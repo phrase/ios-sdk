@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ios-arm64/PhraseSDK.framework/.swiftlint.yml</key>
-		<data>
-		jYzinMusZtlFaH+GNxnXGRC+XZo=
-		</data>
 		<key>ios-arm64/PhraseSDK.framework/Headers/PhraseSDK-Swift.h</key>
 		<data>
-		dZHAcXp1OXjkA0k0D3iuFyihP1Y=
+		0Zdln0gXOlV4GGB+HSWxp0NCxMM=
 		</data>
 		<key>ios-arm64/PhraseSDK.framework/Headers/PhraseSDK.h</key>
 		<data>
@@ -18,23 +14,23 @@
 		</data>
 		<key>ios-arm64/PhraseSDK.framework/Info.plist</key>
 		<data>
-		qbKQlk3LTlMWddyDHOfQZDub4lU=
+		QWjFjkHXeTeBXh/kOl1HgFsn9YQ=
 		</data>
 		<key>ios-arm64/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		lM2H6Na8UdvcLCVhFEbFWs9OErM=
+		u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 		</data>
 		<key>ios-arm64/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		/+IIRoCVgB36kCMWfprquMTVNyc=
+		3YqbD9va9Rz14Y0cty71NigxzM8=
 		</data>
 		<key>ios-arm64/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		dMoOVfcyeQYGzQP4ykfEecj3Bq8=
+		cXYRS2MdkVqWFvqvLDCCvvLQK9Q=
 		</data>
 		<key>ios-arm64/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		/+IIRoCVgB36kCMWfprquMTVNyc=
+		3YqbD9va9Rz14Y0cty71NigxzM8=
 		</data>
 		<key>ios-arm64/PhraseSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -42,7 +38,7 @@
 		</data>
 		<key>ios-arm64/PhraseSDK.framework/PhraseSDK</key>
 		<data>
-		O9JpBRDfezdI5/2IgZUfueDFRIM=
+		3Ujp7mK943RMV/wMQChD1KODidY=
 		</data>
 		<key>ios-arm64/PhraseSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -50,19 +46,19 @@
 		</data>
 		<key>ios-arm64/dSYMs/PhraseSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		oRzzsAEQPisyjGUEK0jkkqRbZ5A=
+		LglDAhaK0MAvdAOWz6ybYjaTOgk=
 		</data>
 		<key>ios-arm64/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/DWARF/PhraseSDK</key>
 		<data>
-		X0yB9FMOoYJm8m7r7DBqojnPurQ=
+		fy27Gpe6Pa410tmj/mBD/0NhV1Y=
 		</data>
 		<key>ios-arm64/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/PhraseSDK.yml</key>
 		<data>
-		3Yg0qbJDHQ3TBP1o7pFhddQHEUQ=
+		3BvxCSHXyzHLx1gsHlYWo6WYFFU=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Headers/PhraseSDK-Swift.h</key>
 		<data>
-		vtau+jLQPRlLxKHM+jp/z30BYS0=
+		kcxv3rFm15FEuBYI6hXhDPKyUEw=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Headers/PhraseSDK.h</key>
 		<data>
@@ -70,35 +66,35 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<data>
-		lM2H6Na8UdvcLCVhFEbFWs9OErM=
+		u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		krnQNhC8V5JzYVbN76l71DsUQ6c=
+		truk20QvOzcL+9WutBtWTJ6CoRY=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<data>
-		hPGDVqmv3l3RucvN4c2GwaTLkbM=
+		mf01ySX/gTmsK6jXyBAxha02dgE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		krnQNhC8V5JzYVbN76l71DsUQ6c=
+		truk20QvOzcL+9WutBtWTJ6CoRY=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<data>
-		lM2H6Na8UdvcLCVhFEbFWs9OErM=
+		u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		Mg6DfNpi/n/qhEFmMtbPXb0qUnw=
+		Zn1GKw+6PiAMQnyhX31p8Fy9PeM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<data>
-		ZcE4rPaqeV4Nas2y/VWKUP73Uc4=
+		Iy9aBi4hUJprUVFi1dQSB2QKlMI=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		Mg6DfNpi/n/qhEFmMtbPXb0qUnw=
+		Zn1GKw+6PiAMQnyhX31p8Fy9PeM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
@@ -106,15 +102,11 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/PhraseSDK</key>
 		<data>
-		wiMAX4K1EpE3Wb9eyN+nh483EGA=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Resources/.swiftlint.yml</key>
-		<data>
-		jYzinMusZtlFaH+GNxnXGRC+XZo=
+		Ot6Y5NYb7ZJfAyTl9vSs/ZS05Qg=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		yzCSPRXXG5QysnGqwHE4PZ5AQ2E=
+		qg7EdVBqlUD0iqr2GpJ+lmH0KSU=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -122,27 +114,23 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/PhraseSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		oRzzsAEQPisyjGUEK0jkkqRbZ5A=
+		LglDAhaK0MAvdAOWz6ybYjaTOgk=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/DWARF/PhraseSDK</key>
 		<data>
-		WaQAqf4pTFh9EcSj/eJX0XvqqB0=
+		h6DVZaI8sJB09I3AVwIKX8E/OUk=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/PhraseSDK.yml</key>
 		<data>
-		R6zxlwxDvIlQkUYKwYLFyfgSw9M=
+		qgCPAUKa3J0SE1D9Sqe4u1aes8E=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/PhraseSDK.yml</key>
 		<data>
-		xzcvVrb9Q70ZZogmFMOjvwO/Ve8=
-		</data>
-		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/.swiftlint.yml</key>
-		<data>
-		jYzinMusZtlFaH+GNxnXGRC+XZo=
+		iENUx0aTxp15O11sbRMY94MzhPU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Headers/PhraseSDK-Swift.h</key>
 		<data>
-		vtau+jLQPRlLxKHM+jp/z30BYS0=
+		kcxv3rFm15FEuBYI6hXhDPKyUEw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Headers/PhraseSDK.h</key>
 		<data>
@@ -150,39 +138,39 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Info.plist</key>
 		<data>
-		kOoQAh3FmeaSvR1s/gO3W41MWpI=
+		jw8bwKoiQPWr1YwlGkrjoD2EYIc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lM2H6Na8UdvcLCVhFEbFWs9OErM=
+		u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KfGOUjhvBCvgHtsnVLuxoFUjmFc=
+		q9yGUy13/gthq9leEAS0KgbBn7k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+6wVSKWP6D/0al2zUvJItyec22M=
+		kGCINhZ+eoRinC2QjBEvktRMOCQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KfGOUjhvBCvgHtsnVLuxoFUjmFc=
+		q9yGUy13/gthq9leEAS0KgbBn7k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lM2H6Na8UdvcLCVhFEbFWs9OErM=
+		u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		T8vHOLgByWpmBjsu6c6kqbu0F2E=
+		bYCBNad8LuxTxvETl8r43Pk6N+Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dWnSQMrstZx7wfuI4PcQr3UstxE=
+		iaH4DqiYaKNEY8MDeQsdN4qP+tM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		T8vHOLgByWpmBjsu6c6kqbu0F2E=
+		bYCBNad8LuxTxvETl8r43Pk6N+Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -190,7 +178,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/PhraseSDK</key>
 		<data>
-		9QY9jRPEr92F3+23LkTQfjBI0JI=
+		AlipW8iqpND4ObtnNQnZAqNu7lk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -198,47 +186,36 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		eXyTP6zd2kQO8MjK7VTArhAucqw=
+		+r7yILb5N97jSpxqAJOgIdsP7Ew=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/PhraseSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		oRzzsAEQPisyjGUEK0jkkqRbZ5A=
+		LglDAhaK0MAvdAOWz6ybYjaTOgk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/DWARF/PhraseSDK</key>
 		<data>
-		gE44lTM7IBBj1oKN0d+8TGDo8hY=
+		GiHidpdxptqK61ljdz7LMMFkt5g=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/PhraseSDK.yml</key>
 		<data>
-		jvtIJgAunxn+WCGb9GBOI+EYQ38=
+		43WYu22kwRmAbohMm46VxHv/8L0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/PhraseSDK.yml</key>
 		<data>
-		fRd4q+rKb+zNG6hvD0L4yGxgYBE=
+		b5Z+OevsfL+fUZri0beFK0H3ox0=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ios-arm64/PhraseSDK.framework/.swiftlint.yml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jYzinMusZtlFaH+GNxnXGRC+XZo=
-			</data>
-			<key>hash2</key>
-			<data>
-			iSk3hGYvjI9PnQO5euRkfJ2Adcjb6wgMjk/MGnpAcTc=
-			</data>
-		</dict>
 		<key>ios-arm64/PhraseSDK.framework/Headers/PhraseSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dZHAcXp1OXjkA0k0D3iuFyihP1Y=
+			0Zdln0gXOlV4GGB+HSWxp0NCxMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LbPi6g+T5uA0GbodGwY1ca3ysJqtu8JYn1Zeh6NJREY=
+			l0dHQAfdnYQ6WZ/Wa/VyI7hg1wzTiiBu0HQvct3qX+s=
 			</data>
 		</dict>
 		<key>ios-arm64/PhraseSDK.framework/Headers/PhraseSDK.h</key>
@@ -256,55 +233,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qbKQlk3LTlMWddyDHOfQZDub4lU=
+			QWjFjkHXeTeBXh/kOl1HgFsn9YQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xu4io/5W6zTtCN6CS8hQXUPoodGYW0jSvg1skF9deyc=
+			umTsaNVi2yS6LDJVkNbyLdr+f0fzWs6EAPLPjtRp/dY=
 			</data>
 		</dict>
 		<key>ios-arm64/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lM2H6Na8UdvcLCVhFEbFWs9OErM=
+			u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 			</data>
 			<key>hash2</key>
 			<data>
-			/JHeV3mzb/hcarBmcAJqpfslDueSfmFjFZt2Sy9Wf1A=
+			rvIci3T9zhjlEi5zfWvDe+XaPg1NVHH23exw32WoLHY=
 			</data>
 		</dict>
 		<key>ios-arm64/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/+IIRoCVgB36kCMWfprquMTVNyc=
+			3YqbD9va9Rz14Y0cty71NigxzM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			dY2RucYrUC2UtChATkyzzQjt8vCDCeET1G+PRLanbOA=
+			CRZKtCLctYvEih/H4CQGe70AFFHGgnf/4qbLpLbWFK8=
 			</data>
 		</dict>
 		<key>ios-arm64/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dMoOVfcyeQYGzQP4ykfEecj3Bq8=
+			cXYRS2MdkVqWFvqvLDCCvvLQK9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			MZZKGUfR0u+I4lLqmcdkOdP+J1oj3DVZjOuwHJQQtkM=
+			TKaPluaZmmNUdjaAy1Ftq2lr21AH116K10oCoE4BM3o=
 			</data>
 		</dict>
 		<key>ios-arm64/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/+IIRoCVgB36kCMWfprquMTVNyc=
+			3YqbD9va9Rz14Y0cty71NigxzM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			dY2RucYrUC2UtChATkyzzQjt8vCDCeET1G+PRLanbOA=
+			CRZKtCLctYvEih/H4CQGe70AFFHGgnf/4qbLpLbWFK8=
 			</data>
 		</dict>
 		<key>ios-arm64/PhraseSDK.framework/Modules/module.modulemap</key>
@@ -322,11 +299,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O9JpBRDfezdI5/2IgZUfueDFRIM=
+			3Ujp7mK943RMV/wMQChD1KODidY=
 			</data>
 			<key>hash2</key>
 			<data>
-			zUgQE26l/Dv7JxPbkj6ZswtaPczEaT1Dz7BXy9xad4U=
+			9SUViHcRNLbQ2tFGJ+uj8ZQGlzs5b1tn71XwM5OGYi4=
 			</data>
 		</dict>
 		<key>ios-arm64/PhraseSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -344,33 +321,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oRzzsAEQPisyjGUEK0jkkqRbZ5A=
+			LglDAhaK0MAvdAOWz6ybYjaTOgk=
 			</data>
 			<key>hash2</key>
 			<data>
-			KomBpSfkDURwXGHJ4nWnxiPXREB9Rlo8Sr5t2FGoz4I=
+			rVqX31dEuiZIOriwERy3wkcNY067eei0njAQ9b2YrtA=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/DWARF/PhraseSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X0yB9FMOoYJm8m7r7DBqojnPurQ=
+			fy27Gpe6Pa410tmj/mBD/0NhV1Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			dd4ocl77c5MlpcPEvj4Vhru9+w7em4McxBvYygRTXbU=
+			zhNUWb8gLG6V+6WhkwmkGKuOL49x4+gqlZEnFnCv+Xg=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/PhraseSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3Yg0qbJDHQ3TBP1o7pFhddQHEUQ=
+			3BvxCSHXyzHLx1gsHlYWo6WYFFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			QWWUyqJk7RhNQIgMTHg1CGUhrw+h4yvjBNEQKf+jexk=
+			lGwns9fU6YQ846nb/wJc3bkDvHxBeIB6WNkd9P/SpdE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Headers</key>
@@ -397,11 +374,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vtau+jLQPRlLxKHM+jp/z30BYS0=
+			kcxv3rFm15FEuBYI6hXhDPKyUEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			sLEfRvanLPvbNXljAsJDiR/ielmPv6vKOrSNa9hDWlM=
+			330KfWNb66TlmvLSXHeQMNV3KeJtKk8enFi+7MsRGcc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Headers/PhraseSDK.h</key>
@@ -419,88 +396,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lM2H6Na8UdvcLCVhFEbFWs9OErM=
+			u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 			</data>
 			<key>hash2</key>
 			<data>
-			/JHeV3mzb/hcarBmcAJqpfslDueSfmFjFZt2Sy9Wf1A=
+			rvIci3T9zhjlEi5zfWvDe+XaPg1NVHH23exw32WoLHY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			krnQNhC8V5JzYVbN76l71DsUQ6c=
+			truk20QvOzcL+9WutBtWTJ6CoRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			wBiImN17cAcPCn/59snDskFf9TdXbFF+bJSBted9Gi0=
+			P3ybJZ/qoSQggUwpKYHTNP5UTpxX2tIi3YrA7/oxPH4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hPGDVqmv3l3RucvN4c2GwaTLkbM=
+			mf01ySX/gTmsK6jXyBAxha02dgE=
 			</data>
 			<key>hash2</key>
 			<data>
-			BFiKXqYY7/3MgbU+E2gq5U+tBD9WhXuGQt8SHUPSI/w=
+			kc06MN4mR6k2A4g1yaDF3HuMer1bvn4HebLT8ih4gr8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			krnQNhC8V5JzYVbN76l71DsUQ6c=
+			truk20QvOzcL+9WutBtWTJ6CoRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			wBiImN17cAcPCn/59snDskFf9TdXbFF+bJSBted9Gi0=
+			P3ybJZ/qoSQggUwpKYHTNP5UTpxX2tIi3YrA7/oxPH4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lM2H6Na8UdvcLCVhFEbFWs9OErM=
+			u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 			</data>
 			<key>hash2</key>
 			<data>
-			/JHeV3mzb/hcarBmcAJqpfslDueSfmFjFZt2Sy9Wf1A=
+			rvIci3T9zhjlEi5zfWvDe+XaPg1NVHH23exw32WoLHY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mg6DfNpi/n/qhEFmMtbPXb0qUnw=
+			Zn1GKw+6PiAMQnyhX31p8Fy9PeM=
 			</data>
 			<key>hash2</key>
 			<data>
-			EE5PcYzhVKRHy4KSgxSFmdpZZ8JFjYCvyoG7dDr/AWg=
+			RfogYdIOc2kDJT2W7K+x4dB7mISs/sauM0E9w9sWzcM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZcE4rPaqeV4Nas2y/VWKUP73Uc4=
+			Iy9aBi4hUJprUVFi1dQSB2QKlMI=
 			</data>
 			<key>hash2</key>
 			<data>
-			EsfFp91osj4AP7/gp/1l7XAyFHVpnWBKaJdhterQdHw=
+			d3PKENf3Zg9d2FiAzRsbvYKQSouzYumwGrplFAp1ll0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mg6DfNpi/n/qhEFmMtbPXb0qUnw=
+			Zn1GKw+6PiAMQnyhX31p8Fy9PeM=
 			</data>
 			<key>hash2</key>
 			<data>
-			EE5PcYzhVKRHy4KSgxSFmdpZZ8JFjYCvyoG7dDr/AWg=
+			RfogYdIOc2kDJT2W7K+x4dB7mISs/sauM0E9w9sWzcM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Modules/module.modulemap</key>
@@ -518,33 +495,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wiMAX4K1EpE3Wb9eyN+nh483EGA=
+			Ot6Y5NYb7ZJfAyTl9vSs/ZS05Qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			S9vGD2jMLejXY5+m5N+jne2WXag2Muc7q8dN8qQ6rxg=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Resources/.swiftlint.yml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jYzinMusZtlFaH+GNxnXGRC+XZo=
-			</data>
-			<key>hash2</key>
-			<data>
-			iSk3hGYvjI9PnQO5euRkfJ2Adcjb6wgMjk/MGnpAcTc=
+			EhLDTPe5QP1egLtSHuzULS+sIkj/vSawMERBaimohBc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yzCSPRXXG5QysnGqwHE4PZ5AQ2E=
+			qg7EdVBqlUD0iqr2GpJ+lmH0KSU=
 			</data>
 			<key>hash2</key>
 			<data>
-			BtFBkZG3piqOWJs+tEP5HmNHMNu8trPxNk7NJ3wfyPs=
+			81l448/NQWuX5L/FGx01IXZPtcMivkkKydZQmz8QEWw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/PhraseSDK.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
@@ -567,66 +533,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oRzzsAEQPisyjGUEK0jkkqRbZ5A=
+			LglDAhaK0MAvdAOWz6ybYjaTOgk=
 			</data>
 			<key>hash2</key>
 			<data>
-			KomBpSfkDURwXGHJ4nWnxiPXREB9Rlo8Sr5t2FGoz4I=
+			rVqX31dEuiZIOriwERy3wkcNY067eei0njAQ9b2YrtA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/DWARF/PhraseSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WaQAqf4pTFh9EcSj/eJX0XvqqB0=
+			h6DVZaI8sJB09I3AVwIKX8E/OUk=
 			</data>
 			<key>hash2</key>
 			<data>
-			IGs3C84gQe+cBhX5Hq8DrxNnDUBodxlSQbM82kmkrMo=
+			EbGrTDlwVT0j3TRXariQInvLZs0P2wwOME4DSCvWNsk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/PhraseSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R6zxlwxDvIlQkUYKwYLFyfgSw9M=
+			qgCPAUKa3J0SE1D9Sqe4u1aes8E=
 			</data>
 			<key>hash2</key>
 			<data>
-			+PCyvblG70eXgqInInCKrYiFF45MRApycdmCEDBEAMw=
+			7v03UYhFwMuN5+G2/RBii2VQa/ntySb2QtyWq6u77mQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/PhraseSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xzcvVrb9Q70ZZogmFMOjvwO/Ve8=
+			iENUx0aTxp15O11sbRMY94MzhPU=
 			</data>
 			<key>hash2</key>
 			<data>
-			/rr4A01JGaFwGelXAsW/R370VurPwmMWO+yRMwR6zLQ=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/.swiftlint.yml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jYzinMusZtlFaH+GNxnXGRC+XZo=
-			</data>
-			<key>hash2</key>
-			<data>
-			iSk3hGYvjI9PnQO5euRkfJ2Adcjb6wgMjk/MGnpAcTc=
+			PyCAIMaoKo4yM4DaDXsu/5KsFp1/bUwNlWA0/SDOwCQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Headers/PhraseSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vtau+jLQPRlLxKHM+jp/z30BYS0=
+			kcxv3rFm15FEuBYI6hXhDPKyUEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			sLEfRvanLPvbNXljAsJDiR/ielmPv6vKOrSNa9hDWlM=
+			330KfWNb66TlmvLSXHeQMNV3KeJtKk8enFi+7MsRGcc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Headers/PhraseSDK.h</key>
@@ -644,99 +599,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kOoQAh3FmeaSvR1s/gO3W41MWpI=
+			jw8bwKoiQPWr1YwlGkrjoD2EYIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			f3SIY6nqVWvH8DGyK5BKrBZpp1dYAi40ODoBj/EtCZ0=
+			7RIXNe8RA1Qx208jQ164DoiLd4V1pwakQdunsfHonpc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lM2H6Na8UdvcLCVhFEbFWs9OErM=
+			u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 			</data>
 			<key>hash2</key>
 			<data>
-			/JHeV3mzb/hcarBmcAJqpfslDueSfmFjFZt2Sy9Wf1A=
+			rvIci3T9zhjlEi5zfWvDe+XaPg1NVHH23exw32WoLHY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KfGOUjhvBCvgHtsnVLuxoFUjmFc=
+			q9yGUy13/gthq9leEAS0KgbBn7k=
 			</data>
 			<key>hash2</key>
 			<data>
-			sxXG55Bj1xP3XmSPrBEAAzPWI25mLS1NABC6OAfJIeU=
+			rRAQYLrbQaKMXkzg7BcS3gLVSkGWh00FhUApRJuKmEM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+6wVSKWP6D/0al2zUvJItyec22M=
+			kGCINhZ+eoRinC2QjBEvktRMOCQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			L9YOPrE34rScl1aGHHu4gPePHS2GEmxyl1EJCvVDC9I=
+			Y+0IJ/G3DcB6fepaWLQM8jU5nCDvX5AbqemKU+aqXHM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KfGOUjhvBCvgHtsnVLuxoFUjmFc=
+			q9yGUy13/gthq9leEAS0KgbBn7k=
 			</data>
 			<key>hash2</key>
 			<data>
-			sxXG55Bj1xP3XmSPrBEAAzPWI25mLS1NABC6OAfJIeU=
+			rRAQYLrbQaKMXkzg7BcS3gLVSkGWh00FhUApRJuKmEM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lM2H6Na8UdvcLCVhFEbFWs9OErM=
+			u8dGJg8tL8QOz5/Mh5WVKhH+d3I=
 			</data>
 			<key>hash2</key>
 			<data>
-			/JHeV3mzb/hcarBmcAJqpfslDueSfmFjFZt2Sy9Wf1A=
+			rvIci3T9zhjlEi5zfWvDe+XaPg1NVHH23exw32WoLHY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T8vHOLgByWpmBjsu6c6kqbu0F2E=
+			bYCBNad8LuxTxvETl8r43Pk6N+Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			sXl1HAR/tDoU7sMImhl+oJT7Ogxd+kx5VdTNJ9Bf4qg=
+			Z1NGmt5S6hQeCsyn/3R2Z7lgKLYpokTiz0jNM4pS6Aw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dWnSQMrstZx7wfuI4PcQr3UstxE=
+			iaH4DqiYaKNEY8MDeQsdN4qP+tM=
 			</data>
 			<key>hash2</key>
 			<data>
-			r6/U3vXbpMFJJznrNBXOPjov+DP3Wki3ZFgGDAwmePI=
+			YyVQWtYdfl/XM0J5j1GQVsG+KcV+CYAcp/u2bogVldM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/PhraseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T8vHOLgByWpmBjsu6c6kqbu0F2E=
+			bYCBNad8LuxTxvETl8r43Pk6N+Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			sXl1HAR/tDoU7sMImhl+oJT7Ogxd+kx5VdTNJ9Bf4qg=
+			Z1NGmt5S6hQeCsyn/3R2Z7lgKLYpokTiz0jNM4pS6Aw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/Modules/module.modulemap</key>
@@ -754,11 +709,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9QY9jRPEr92F3+23LkTQfjBI0JI=
+			AlipW8iqpND4ObtnNQnZAqNu7lk=
 			</data>
 			<key>hash2</key>
 			<data>
-			sO1zYNeNqltxjHoUbr/zfqSmeb94ONUvVaaLXbw5TNI=
+			QrkB5pkHIbDp3sYmK4emQnavg4DUkqtEtA/mJSuWrk0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PhraseSDK.framework/PrivacyInfo.xcprivacy</key>
@@ -776,55 +731,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eXyTP6zd2kQO8MjK7VTArhAucqw=
+			+r7yILb5N97jSpxqAJOgIdsP7Ew=
 			</data>
 			<key>hash2</key>
 			<data>
-			ap4xPvAV5cx1+F8OzQQifjErD12AMtEnlzdBmn2l1lM=
+			TNAIT+TNZnBFbpoXWnM9Dzmd27qyTbbnN5AaOqHHjKE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/PhraseSDK.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oRzzsAEQPisyjGUEK0jkkqRbZ5A=
+			LglDAhaK0MAvdAOWz6ybYjaTOgk=
 			</data>
 			<key>hash2</key>
 			<data>
-			KomBpSfkDURwXGHJ4nWnxiPXREB9Rlo8Sr5t2FGoz4I=
+			rVqX31dEuiZIOriwERy3wkcNY067eei0njAQ9b2YrtA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/DWARF/PhraseSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gE44lTM7IBBj1oKN0d+8TGDo8hY=
+			GiHidpdxptqK61ljdz7LMMFkt5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			JwSjh2EwmH9aYAJHD65fhSEJfM8lz+V0Olwr8kPLQWc=
+			ADmUD+4yGsfaXtk5Zc1bYDIaOfd7rdEc8+cg9gv+NrQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/PhraseSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jvtIJgAunxn+WCGb9GBOI+EYQ38=
+			43WYu22kwRmAbohMm46VxHv/8L0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vr8n0P5n4tt6eApk/aMaGeOv0VCW5F7LRCvbG9HA1uw=
+			gGfoC7ofSi/wC4xN+5G1ntz44Xwbsav5wBzuGU7AO4w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/PhraseSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/PhraseSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fRd4q+rKb+zNG6hvD0L4yGxgYBE=
+			b5Z+OevsfL+fUZri0beFK0H3ox0=
 			</data>
 			<key>hash2</key>
 			<data>
-			SIfOTQCSZKgSfcXjqXXotfoOUCLZsZc5ZIEG8FD9akU=
+			cypoHHOr3+udZp5AxR/U/nRYGZ9q+agCldM4mQd3En0=
 			</data>
 		</dict>
 	</dict>
