@@ -12,6 +12,8 @@ With the SDK, the app regularly checks for updated translations and downloads th
 
 The SDK can be installed manually or via Swift Package Manager, Carthage or Cocoa Pods.
 
+Example [app](https://github.com/phrase/ios-demo-app)
+
 ### Swift Package Manager
 Add the public repository URL (https://github.com/phrase/ios-sdk/). Xcode automatically handles the rest of the installation.
 
