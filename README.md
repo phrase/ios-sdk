@@ -21,10 +21,10 @@ Add the public repository URL (https://github.com/phrase/ios-sdk/). Xcode automa
 Add the following line into your Cartfile:
 
 ```
-binary "https://raw.githubusercontent.com/phrase/ios-sdk/master/PhraseSDK.json" ~> 3.0.0
+binary "https://raw.githubusercontent.com/phrase/ios-sdk/master/PhraseSDK.json" ~> 5.0.0
 ```
 
-Run `carthage update` and add the `PhraseApp.framework` to your project as described in the [Carthage documentation](https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos).
+Run `carthage update --use-xcframeworks` and add the `PhraseSDK.xcframework` to your project as described in the [Carthage documentation](https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos).
 
 ### Cocoa Pods
 Add the following line into your Podfile:
@@ -37,25 +37,7 @@ Run `pod install`. If new to CocoaPods, see their [documentation](https://guides
 ### Manual installation
 
 1. Download the latest [release](https://github.com/phrase/ios-sdk/releases).
-2. Add PhraseSDK.framework in Xcode as the linked binary to the target.
-3. A script to strip the extra binaries needs to be run before you upload the app as the Apple store rejects apps including simulator binaries.
-
-Go to *Build Phases* and add a *Run Script* section by clicking the + symbol. Paste in this script:
-
-```
-FRAMEWORK="PhraseSDK"
-FRAMEWORK_EXECUTABLE_PATH="${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/$FRAMEWORK.framework/$FRAMEWORK"
-EXTRACTED_ARCHS=()
-for ARCH in $ARCHS
-do
-   lipo -extract "$ARCH" "$FRAMEWORK_EXECUTABLE_PATH" -o "$FRAMEWORK_EXECUTABLE_PATH-$ARCH"
-   EXTRACTED_ARCHS+=("$FRAMEWORK_EXECUTABLE_PATH-$ARCH")
-done
-lipo -o "$FRAMEWORK_EXECUTABLE_PATH-merged" -create "${EXTRACTED_ARCHS[@]}"
-rm "${EXTRACTED_ARCHS[@]}"
-rm "$FRAMEWORK_EXECUTABLE_PATH"
-mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
-```
+2. Add `PhraseSDK.xcframework` in Xcode as the linked binary to the target.
 
 ### Configuration
 
@@ -164,13 +146,12 @@ Phrase.shared.configuration.ignoreOtherTables = true
 
 Attach a callback handler to handle successful translation updates:
 
-```
-Phrase.shared.updateTranslation { result in
-            switch result {
-            case .success(let updated):
-            case .failure:
-            }
-        }
+```swift
+do {
+   let updated = try await Phrase.shared.updateTranslation()
+} catch error {
+   ...
+}
 ```
 
 ### Debug mode
