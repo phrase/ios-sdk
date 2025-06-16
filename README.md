@@ -116,6 +116,21 @@ Integrate the SDK into the Objective-C application:
 }
 ```
 
+### Apply updates
+
+After updating the translations with `updateTranslation` call `applyPendingUpdates` to make the newly downloaded translations available immediately—without needing to restart the app.
+
+> ℹ️ **Note:** If `applyPendingUpdates` is not called, the new translations will still be applied automatically on the next app launch.
+
+```
+let newUpdatesAvailable = try await Phrase.shared.updateTranslation()
+if newUpdatesAvailable {
+    Phrase.shared.applyPendingUpdates()
+    // refresh the screen if needed
+}
+
+```
+
 ### Disable swizzling
 
 To disable swizzling, set `PhraseSDKMainBundleProxyDisabled` to **YES** in the `Info.plist` file.
@@ -237,6 +252,8 @@ Task {
         let updated = try await Phrase.shared.updateTranslation()
         if updated {
             logger.info("Translations changed")
+            // Starting with 5.1.0, it is possible to apply the new translation immediately
+            Phrase.shared.applyPendingUpdates()
         } else {
             logger.debug("Translations remain unchanged")
         }
