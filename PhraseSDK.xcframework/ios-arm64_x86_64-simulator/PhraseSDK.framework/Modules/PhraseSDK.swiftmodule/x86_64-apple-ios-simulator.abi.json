@@ -2257,6 +2257,29 @@
           },
           {
             "kind": "Function",
+            "name": "applyPendingUpdates",
+            "printedName": "applyPendingUpdates()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PhraseSDK@objc(cs)Phrase(im)applyPendingUpdates",
+            "mangledName": "$s9PhraseSDK0A0C19applyPendingUpdatesyyF",
+            "moduleName": "PhraseSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "localizedString",
             "printedName": "localizedString(forKey:value:table:)",
             "children": [
@@ -3955,35 +3978,35 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 404,
       "length": 8,
       "value": "\".lproj\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1539,
+      "offset": 1709,
       "length": 10,
       "value": "\".nocache\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "BooleanLiteral",
-      "offset": 1973,
+      "offset": 2206,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "BooleanLiteral",
-      "offset": 2465,
+      "offset": 2783,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-src\/ios-sdk-src\/PhraseSDK\/Sources\/Storage\/PhraseFileMethods.swift",
       "kind": "BooleanLiteral",
-      "offset": 3661,
+      "offset": 4028,
       "length": 5,
       "value": "false"
     }
