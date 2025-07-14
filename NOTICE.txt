@@ -1,0 +1,18 @@
+NOTICE
+
+This product includes third party software developed by various authors.
+
+---
+
+DEPENDENCIES AND LICENSE INFORMATION:
+
+1. cwlcatchexception
+   - Version: 2.1.2
+   - License: ISC
+   - Author(s): "Matt Gallagher"
+   - URL: https://github.com/mattgallagher/CwlCatchException.git
+   - License text: See LICENSES file within the included source code of the dependency
+
+---
+
+This NOTICE file is for informational purposes only and does not modify the license terms of any referenced software.
