@@ -1,0 +1,795 @@
+NOTICE
+
+This product includes third party software developed by various authors.
+
+---
+
+DEPENDENCIES AND LICENSE INFORMATION:
+
+1. CFPropertyList
+   - Version: 3.0.7
+   - License: MIT
+   - Author(s): Christian Kruse
+   - URL: https://github.com/ckruse/CFPropertyList
+   - License text: See LICENSES file within the included source code of the dependency
+
+2. activesupport
+   - Version: 8.0.2
+   - License: MIT
+   - Author(s): David Heinemeier Hansson
+   - URL: https://rubyonrails.org
+   - License text: See LICENSES file within the included source code of the dependency
+
+3. addressable
+   - Version: 02.08.07
+   - License: Apache 2.0
+   - Author(s): Bob Aman
+   - URL: https://github.com/sporkmonger/addressable
+   - License text: See LICENSES file within the included source code of the dependency
+
+4. artifactory
+   - Version: 3.0.17
+   - License: Apache 2.0
+   - Author(s): Chef Release Engineering Team
+   - URL: https://github.com/chef/artifactory-client
+   - License text: See LICENSES file within the included source code of the dependency
+
+5. atomos
+   - Version: 0.1.3
+   - License: MIT
+   - Author(s): Samuel Giddins
+   - URL: https://github.com/segiddins/atomos
+   - License text: See LICENSES file within the included source code of the dependency
+
+6. aws-eventstream
+   - Version: 01.04.00
+   - License: Apache 2.0
+   - Author(s): Amazon Web Services
+   - URL: https://github.com/aws/aws-sdk-ruby
+   - License text: See LICENSES file within the included source code of the dependency
+
+7. aws-partitions
+   - Version: 1.1125.0
+   - License: Apache 2.0
+   - Author(s): Amazon Web Services
+   - URL: https://github.com/aws/aws-sdk-ruby
+   - License text: See LICENSES file within the included source code of the dependency
+
+8. aws-sdk-core
+   - Version: 3.226.2
+   - License: Apache 2.0
+   - Author(s): Amazon Web Services
+   - URL: https://github.com/aws/aws-sdk-ruby
+   - License text: See LICENSES file within the included source code of the dependency
+
+9. aws-sdk-kms
+   - Version: 1.106.0
+   - License: Apache 2.0
+   - Author(s): Amazon Web Services
+   - URL: https://github.com/aws/aws-sdk-ruby
+   - License text: See LICENSES file within the included source code of the dependency
+
+10. aws-sdk-s3
+   - Version: 1.192.0
+   - License: Apache 2.0
+   - Author(s): Amazon Web Services
+   - URL: https://github.com/aws/aws-sdk-ruby
+   - License text: See LICENSES file within the included source code of the dependency
+
+11. aws-sigv4
+   - Version: 01.12.01
+   - License: Apache 2.0
+   - Author(s): Amazon Web Services
+   - URL: https://github.com/aws/aws-sdk-ruby
+   - License text: See LICENSES file within the included source code of the dependency
+
+12. babosa
+   - Version: 1.0.4
+   - License: MIT
+   - Author(s): Norman Clarke
+   - URL: http://github.com/norman/babosa
+   - License text: See LICENSES file within the included source code of the dependency
+
+13. base64
+   - Version: 0.3.0
+   - License: Simplified BSD, ruby
+   - Author(s): Yusuke Endoh
+   - URL: https://github.com/ruby/base64
+   - License text: See LICENSES file within the included source code of the dependency
+
+14. benchmark
+   - Version: 0.4.1
+   - License: Simplified BSD, ruby
+   - Author(s): Yukihiro Matsumoto
+   - URL: https://github.com/ruby/benchmark
+   - License text: See LICENSES file within the included source code of the dependency
+
+15. bigdecimal
+   - Version: 03.02.02
+   - License: Simplified BSD, ruby
+   - Author(s): Kenta Murata, Zachary Scott, Shigeo Kobayashi
+   - URL: https://github.com/ruby/bigdecimal
+   - License text: See LICENSES file within the included source code of the dependency
+
+16. bundler
+   - Version: 02.06.09
+   - License: MIT
+   - Author(s): André Arko, Samuel Giddins, Colby Swandale, Hiroshi Shibata, David Rodríguez, Grey Baker, Stephanie Morillo, Chris Morris, James Wen, Tim Moore, André Medeiros, Jessica Lynn Suttles, Terence Lee, Carl Lerche, Yehuda Katz
+   - URL: https://bundler.io
+   - License text: See LICENSES file within the included source code of the dependency
+
+17. claide
+   - Version: 01.01.00
+   - License: MIT
+   - Author(s): Eloy Duran, Fabio Pelosin
+   - URL: https://github.com/CocoaPods/CLAide
+   - License text: See LICENSES file within the included source code of the dependency
+
+18. clamp
+   - Version: 01.03.02
+   - License: MIT
+   - Author(s): Mike Williams
+   - URL: https://github.com/mdub/clamp
+   - License text: See LICENSES file within the included source code of the dependency
+
+19. colored2
+   - Version: 03.01.02
+   - License: MIT
+   - Author(s): Chris Wanstrath, Konstantin Gredeskoul
+   - URL: http://github.com/kigster/colored2
+   - License text: See LICENSES file within the included source code of the dependency
+
+20. commander
+   - Version: 04.06.00
+   - License: MIT
+   - Author(s): TJ Holowaychuk, Gabriel Gilder
+   - URL: https://github.com/commander-rb/commander
+   - License text: See LICENSES file within the included source code of the dependency
+
+21. concurrent-ruby
+   - Version: 01.03.05
+   - License: MIT
+   - Author(s): Jerry D'Antonio, Petr Chalupa, The Ruby Concurrency Team
+   - URL: http://www.concurrent-ruby.com
+   - License text: See LICENSES file within the included source code of the dependency
+
+22. connection_pool
+   - Version: 02.05.03
+   - License: MIT
+   - Author(s): Mike Perham, Damian Janowski
+   - URL: https://github.com/mperham/connection_pool
+   - License text: See LICENSES file within the included source code of the dependency
+
+23. cwlcatchexception
+   - Version: 02.01.02
+   - License: ISC
+   - Author(s): Matt Gallagher
+   - URL: https://github.com/mattgallagher/CwlCatchException
+   - License text: See LICENSES file within the included source code of the dependency
+
+24. cwlpreconditiontesting
+   - Version: 02.02.00
+   - License: ISC
+   - Author(s): Matt Gallagher
+   - URL: https://github.com/mattgallagher/CwlPreconditionTesting
+   - License text: See LICENSES file within the included source code of the dependency
+
+25. declarative
+   - Version: 0.0.20
+   - License: MIT
+   - Author(s): Nick Sutterer
+   - URL: https://github.com/apotonick/declarative
+   - License text: See LICENSES file within the included source code of the dependency
+
+26. digest-crc
+   - Version: 0.7.0
+   - License: MIT
+   - Author(s): Postmodern
+   - URL: https://github.com/postmodern/digest-crc#readme
+   - License text: See LICENSES file within the included source code of the dependency
+
+27. domain_name
+   - Version: 0.6.20240107
+   - License: Mozilla Public License 2.0, New BSD, Simplified BSD
+   - Author(s): Akinori MUSHA
+   - URL: https://github.com/knu/ruby-domain_name
+   - License text: See LICENSES file within the included source code of the dependency
+
+28. dotenv
+   - Version: 02.08.01
+   - License: MIT
+   - Author(s): Brandon Keepers
+   - URL: https://github.com/bkeepers/dotenv
+   - License text: See LICENSES file within the included source code of the dependency
+
+29. drb
+   - Version: 02.02.03
+   - License: Simplified BSD, ruby
+   - Author(s): Masatoshi SEKI
+   - URL: https://github.com/ruby/drb
+   - License text: See LICENSES file within the included source code of the dependency
+
+30. emoji_regex
+   - Version: 03.02.03
+   - License: MIT
+   - Author(s): Jessica Stokes
+   - URL: https://github.com/ticky/ruby-emoji-regex
+   - License text: See LICENSES file within the included source code of the dependency
+
+31. excon
+   - Version: 0.112.0
+   - License: MIT
+   - Author(s): dpiddy (Dan Peterson), geemus (Wesley Beary), nextmat (Matt Sanders)
+   - URL: https://github.com/excon/excon
+   - License text: See LICENSES file within the included source code of the dependency
+
+32. faraday
+   - Version: 01.10.04
+   - License: MIT
+   - Author(s): @technoweenie, @iMacTia, @olleolleolle
+   - URL: https://lostisland.github.io/faraday
+   - License text: See LICENSES file within the included source code of the dependency
+
+33. faraday-cookie_jar
+   - Version: 0.0.7
+   - License: MIT
+   - Author(s): Tatsuhiko Miyagawa
+   - URL: https://github.com/miyagawa/faraday-cookie_jar
+   - License text: See LICENSES file within the included source code of the dependency
+
+34. faraday-em_http
+   - Version: 1.0.0
+   - License: MIT
+   - Author(s): @iMacTia
+   - URL: https://github.com/lostisland/faraday-em_http
+   - License text: See LICENSES file within the included source code of the dependency
+
+35. faraday-em_synchrony
+   - Version: 1.0.1
+   - License: MIT
+   - Author(s): @iMacTia
+   - URL: https://github.com/lostisland/faraday-em_synchrony
+   - License text: See LICENSES file within the included source code of the dependency
+
+36. faraday-excon
+   - Version: 01.01.00
+   - License: MIT
+   - Author(s): @iMacTia
+   - URL: https://github.com/lostisland/faraday-excon
+   - License text: See LICENSES file within the included source code of the dependency
+
+37. faraday-httpclient
+   - Version: 1.0.1
+   - License: MIT
+   - Author(s): @iMacTia
+   - URL: https://github.com/lostisland/faraday-httpclient
+   - License text: See LICENSES file within the included source code of the dependency
+
+38. faraday-multipart
+   - Version: 01.01.01
+   - License: MIT
+   - Author(s): Mattia Giuffrida
+   - URL: https://github.com/lostisland/faraday-multipart
+   - License text: See LICENSES file within the included source code of the dependency
+
+39. faraday-net_http
+   - Version: 1.0.2
+   - License: MIT
+   - Author(s): Jan van der Pas
+   - URL: https://github.com/lostisland/faraday-net_http
+   - License text: See LICENSES file within the included source code of the dependency
+
+40. faraday-net_http_persistent
+   - Version: 01.02.00
+   - License: MIT
+   - Author(s): Mike Rogers
+   - URL: https://github.com/lostisland/faraday-net_http_persistent
+   - License text: See LICENSES file within the included source code of the dependency
+
+41. faraday-patron
+   - Version: 1.0.0
+   - License: MIT
+   - Author(s): @iMacTia
+   - URL: https://github.com/lostisland/faraday-patron
+   - License text: See LICENSES file within the included source code of the dependency
+
+42. faraday-rack
+   - Version: 1.0.0
+   - License: MIT
+   - Author(s): @iMacTia
+   - URL: https://github.com/lostisland/faraday-rack
+   - License text: See LICENSES file within the included source code of the dependency
+
+43. faraday-retry
+   - Version: 1.0.3
+   - License: MIT
+   - Author(s): Mattia Giuffrida
+   - URL: https://github.com/lostisland/faraday-retry
+   - License text: See LICENSES file within the included source code of the dependency
+
+44. faraday_middleware
+   - Version: 01.02.01
+   - License: MIT
+   - Author(s): Erik Michaels-Ober, Wynn Netherland
+   - URL: https://github.com/lostisland/faraday_middleware
+   - License text: See LICENSES file within the included source code of the dependency
+
+45. fastimage
+   - Version: 02.04.00
+   - License: MIT
+   - Author(s): Stephen Sykes
+   - URL: http://github.com/sdsykes/fastimage
+   - License text: See LICENSES file within the included source code of the dependency
+
+46. fastlane
+   - Version: 2.228.0
+   - License: MIT
+   - Author(s): Maksym Grebenets, Jérôme Lacoste, Jorge Revuelta H, Andrew McBurney, Fumiya Nakamura, Satoshi Namai, Jan Piotrowski, Kohki Miki, Luka Mirosevic, Joshua Liebowitz, Josh Holtz, Daniel Jankowski, Felix Krause, Danielle Tomlinson, Aaron Brager, Jimmy Dee, Helmut Januschka, Manish Rathi, Manu Wallner, Łukasz Grabowski, Olivier Halligon, Stefan Natchev, Max Ott, Iulian Onofrei, Matthew Ellis, Roger Oba
+   - URL: https://fastlane.tools
+   - License text: See LICENSES file within the included source code of the dependency
+
+47. fastlane-plugin-create_xcframework
+   - Version: 01.01.02
+   - License: MIT
+   - Author(s): Boris Bielik, Alexey Alter-Pesotskiy
+   - URL: https://github.com/bielikb/fastlane-plugin-create_xcframework
+   - License text: See LICENSES file within the included source code of the dependency
+
+48. fastlane-plugin-versioning
+   - Version: 0.7.1
+   - License: MIT
+   - Author(s): Siarhei Fiedartsou, John Douglas
+   - URL: https://github.com/SiarheiFedartsou/fastlane-plugin-versioning
+   - License text: See LICENSES file within the included source code of the dependency
+
+49. fastlane-sirp
+   - Version: 1.0.0
+   - License: New BSD
+   - Author(s): Glenn Rempe, lamikae, snatchev, joshdholtz
+   - URL: https://github.com/grempe/sirp
+   - License text: See LICENSES file within the included source code of the dependency
+
+50. gh_inspector
+   - Version: 01.01.03
+   - License: MIT
+   - Author(s): Orta Therox, Felix Krause
+   - URL: https://github.com/orta/gh_inspector
+   - License text: See LICENSES file within the included source code of the dependency
+
+51. google-apis-androidpublisher_v3
+   - Version: 0.54.0
+   - License: Apache 2.0
+   - Author(s): Google LLC
+   - URL: https://github.com/google/google-api-ruby-client
+   - License text: See LICENSES file within the included source code of the dependency
+
+52. google-apis-core
+   - Version: 0.11.3
+   - License: Apache 2.0
+   - Author(s): Google LLC
+   - URL: https://github.com/google/google-api-ruby-client
+   - License text: See LICENSES file within the included source code of the dependency
+
+53. google-apis-iamcredentials_v1
+   - Version: 0.17.0
+   - License: Apache 2.0
+   - Author(s): Google LLC
+   - URL: https://github.com/google/google-api-ruby-client
+   - License text: See LICENSES file within the included source code of the dependency
+
+54. google-apis-playcustomapp_v1
+   - Version: 0.13.0
+   - License: Apache 2.0
+   - Author(s): Google LLC
+   - URL: https://github.com/google/google-api-ruby-client
+   - License text: See LICENSES file within the included source code of the dependency
+
+55. google-apis-storage_v1
+   - Version: 0.31.0
+   - License: Apache 2.0
+   - Author(s): Google LLC
+   - URL: https://github.com/google/google-api-ruby-client
+   - License text: See LICENSES file within the included source code of the dependency
+
+56. google-cloud-core
+   - Version: 01.08.00
+   - License: Apache 2.0
+   - Author(s): Mike Moore, Chris Smith
+   - URL: https://github.com/googleapis/google-cloud-ruby/tree/master/google-cloud-core
+   - License text: See LICENSES file within the included source code of the dependency
+
+57. google-cloud-env
+   - Version: 01.06.00
+   - License: Apache 2.0
+   - Author(s): Daniel Azuma
+   - URL: https://github.com/googleapis/ruby-cloud-env
+   - License text: See LICENSES file within the included source code of the dependency
+
+58. google-cloud-errors
+   - Version: 01.05.00
+   - License: Apache 2.0
+   - Author(s): Mike Moore, Chris Smith
+   - URL: https://github.com/googleapis/google-cloud-ruby/tree/master/google-cloud-errors
+   - License text: See LICENSES file within the included source code of the dependency
+
+59. google-cloud-storage
+   - Version: 1.47.0
+   - License: Apache 2.0
+   - Author(s): Mike Moore, Chris Smith
+   - URL: https://github.com/googleapis/google-cloud-ruby/tree/master/google-cloud-storage
+   - License text: See LICENSES file within the included source code of the dependency
+
+60. googleauth
+   - Version: 01.08.01
+   - License: Apache 2.0
+   - Author(s): Tim Emiola
+   - URL: https://github.com/googleapis/google-auth-library-ruby
+   - License text: See LICENSES file within the included source code of the dependency
+
+61. highline
+   - Version: 2.0.3
+   - License: ruby
+   - Author(s): James Edward Gray II
+   - URL: https://github.com/JEG2/highline
+   - License text: See LICENSES file within the included source code of the dependency
+
+62. http-cookie
+   - Version: 1.0.8
+   - License: MIT
+   - Author(s): Akinori MUSHA, Aaron Patterson, Eric Hodel, Mike Dalessio
+   - URL: https://github.com/sparklemotion/http-cookie
+   - License text: See LICENSES file within the included source code of the dependency
+
+63. httpclient
+   - Version: 02.09.00
+   - License: ruby
+   - Author(s): Hiroshi Nakamura
+   - URL: https://github.com/nahi/httpclient
+   - License text: See LICENSES file within the included source code of the dependency
+
+64. i18n
+   - Version: 1.14.7
+   - License: MIT
+   - Author(s): Sven Fuchs, Joshua Harvey, Matt Aimonetti, Stephan Soller, Saimon Moore, Ryan Bigg
+   - URL: https://github.com/ruby-i18n/i18n
+   - License text: See LICENSES file within the included source code of the dependency
+
+65. jmespath
+   - Version: 01.06.02
+   - License: Apache 2.0
+   - Author(s): Trevor Rowe
+   - URL: http://github.com/trevorrowe/jmespath.rb
+   - License text: See LICENSES file within the included source code of the dependency
+
+66. json
+   - Version: 02.12.02
+   - License: ruby
+   - Author(s): Florian Frank
+   - URL: https://github.com/ruby/json
+   - License text: See LICENSES file within the included source code of the dependency
+
+67. jwt
+   - Version: 02.10.02
+   - License: MIT
+   - Author(s): Tim Rudat
+   - URL: https://github.com/jwt/ruby-jwt
+   - License text: See LICENSES file within the included source code of the dependency
+
+68. logger
+   - Version: 01.07.00
+   - License: Simplified BSD, ruby
+   - Author(s): Naotoshi Seo, SHIBATA Hiroshi
+   - URL: https://github.com/ruby/logger
+   - License text: See LICENSES file within the included source code of the dependency
+
+69. mini_magick
+   - Version: 4.13.2
+   - License: MIT
+   - Author(s): Corey Johnson, Hampton Catlin, Peter Kieltyka, James Miller, Thiago Fernandes Massa, Janko Marohnić
+   - URL: https://github.com/minimagick/minimagick
+   - License text: See LICENSES file within the included source code of the dependency
+
+70. mini_mime
+   - Version: 01.01.05
+   - License: MIT
+   - Author(s): Sam Saffron
+   - URL: https://github.com/discourse/mini_mime
+   - License text: See LICENSES file within the included source code of the dependency
+
+71. minitest
+   - Version: 5.25.5
+   - License: MIT
+   - Author(s): Ryan Davis
+   - URL: https://github.com/minitest/minitest
+   - License text: See LICENSES file within the included source code of the dependency
+
+72. mocker
+   - Version: 3.0.2
+   - License: MIT
+   - Author(s): Rui Baltazar
+   - URL: https://github.com/rpbaltazar/mocker
+   - License text: See LICENSES file within the included source code of the dependency
+
+73. multi_json
+   - Version: 1.15.0
+   - License: MIT
+   - Author(s): Michael Bleigh, Josh Kalderimis, Erik Michaels-Ober, Pavel Pravosud
+   - URL: https://github.com/intridea/multi_json
+   - License text: See LICENSES file within the included source code of the dependency
+
+74. multipart-post
+   - Version: 02.04.01
+   - License: MIT
+   - Author(s): Nick Sieger, Samuel Williams, Olle Jonsson, McClain Looney, Lewis Cowles, Gustav Ernberg, Patrick Davey, Steven Davidovitz, Alex Koppel, Ethan Turkeltaub, Jagtesh Chadha, Jason York, Tohru Hashimoto, Vincent Pellé, hexfet, Christine Yen, David Moles, Eric Hutzelman, Feuda Nan, Gerrit Riessen, Jan Piotrowski, Jan-Joost Spanjers, Jason Moore, Jeff Hodges, Johannes Wagener, Jordi Massaguer Pla, Lachlan Priest, Leo Cassarani, Lonre Wang, Luke Redpath, Masato Nakamura, Matt Colyer, Mislav Marohnić, Peter Goldstein, Socrates Vicente, Steffen Grunwald, Takuya Noguchi, Tim Barkley
+   - URL: https://github.com/socketry/multipart-post
+   - License text: See LICENSES file within the included source code of the dependency
+
+75. mutex_m
+   - Version: 0.3.0
+   - License: Simplified BSD, ruby
+   - Author(s): Keiju ISHITSUKA
+   - URL: https://github.com/ruby/mutex_m
+   - License text: See LICENSES file within the included source code of the dependency
+
+76. nanaimo
+   - Version: 0.4.0
+   - License: MIT
+   - Author(s): Danielle Tomlinson, Samuel Giddins
+   - URL: https://github.com/CocoaPods/Nanaimo
+   - License text: See LICENSES file within the included source code of the dependency
+
+77. naturally
+   - Version: 02.03.00
+   - License: MIT
+   - Author(s): Robb Shecter
+   - URL: http://github.com/public-law/naturally
+   - License text: See LICENSES file within the included source code of the dependency
+
+78. nimble
+   - Version: 12.03.00
+   - License: Apache 2.0
+   - Author(s): David Trasbo
+   - URL: https://github.com/dtrasbo/nimble
+   - License text: See LICENSES file within the included source code of the dependency
+
+79. nkf
+   - Version: 0.2.0
+   - License: Simplified BSD, ruby
+   - Author(s): NARUSE Yui, Charles Oliver Nutter
+   - URL: https://github.com/ruby/nkf
+   - License text: See LICENSES file within the included source code of the dependency
+
+80. nokogiri
+   - Version: 1.18.8
+   - License: MIT
+   - Author(s): Mike Dalessio, Aaron Patterson, Yoko Harada, Akinori MUSHA, John Shahid, Karol Bucek, Sam Ruby, Craig Barnes, Stephen Checkoway, Lars Kanis, Sergio Arbeo, Timothy Elliott, Nobuyoshi Nakada
+   - URL: https://nokogiri.org
+   - License text: See LICENSES file within the included source code of the dependency
+
+81. optparse
+   - Version: 0.6.0
+   - License: Simplified BSD, ruby
+   - Author(s): Nobu Nakada
+   - URL: https://github.com/ruby/optparse
+   - License text: See LICENSES file within the included source code of the dependency
+
+82. os
+   - Version: 01.01.04
+   - License: MIT
+   - Author(s): rdp, David McCullars
+   - URL: http://github.com/rdp/os
+   - License text: See LICENSES file within the included source code of the dependency
+
+83. plist
+   - Version: 03.07.02
+   - License: MIT
+   - Author(s): Ben Bleything, Patrick May
+   - URL: https://github.com/patsplat/plist
+   - License text: See LICENSES file within the included source code of the dependency
+
+84. public_suffix
+   - Version: 6.0.2
+   - License: MIT
+   - Author(s): Simone Carletti
+   - URL: https://simonecarletti.com/code/publicsuffix-ruby
+   - License text: See LICENSES file within the included source code of the dependency
+
+85. racc
+   - Version: 01.08.01
+   - License: Simplified BSD, ruby
+   - Author(s): Minero Aoki, Aaron Patterson
+   - URL: https://github.com/ruby/racc
+   - License text: See LICENSES file within the included source code of the dependency
+
+86. rake
+   - Version: 13.03.00
+   - License: MIT
+   - Author(s): Hiroshi SHIBATA, Eric Hodel, Jim Weirich
+   - URL: https://github.com/ruby/rake
+   - License text: See LICENSES file within the included source code of the dependency
+
+87. representable
+   - Version: 03.02.00
+   - License: MIT
+   - Author(s): Nick Sutterer
+   - URL: https://github.com/trailblazer/representable/
+   - License text: See LICENSES file within the included source code of the dependency
+
+88. retriable
+   - Version: 03.01.02
+   - License: MIT
+   - Author(s): Jack Chu
+   - URL: http://github.com/kamui/retriable
+   - License text: See LICENSES file within the included source code of the dependency
+
+89. rexml
+   - Version: 03.04.01
+   - License: Simplified BSD
+   - Author(s): Kouhei Sutou
+   - URL: https://github.com/ruby/rexml
+   - License text: See LICENSES file within the included source code of the dependency
+
+90. rouge
+   - Version: 3.28.0
+   - License: MIT, Simplified BSD
+   - Author(s): Jeanine Adkisson
+   - URL: http://rouge.jneen.net/
+   - License text: See LICENSES file within the included source code of the dependency
+
+91. ruby2_keywords
+   - Version: 0.0.5
+   - License: Simplified BSD, ruby
+   - Author(s): Nobuyoshi Nakada
+   - URL: https://github.com/ruby/ruby2_keywords
+   - License text: See LICENSES file within the included source code of the dependency
+
+92. rubyzip
+   - Version: 02.04.01
+   - License: Simplified BSD
+   - Author(s): Robert Haines, John Lees-Miller, Alexander Simonov
+   - URL: http://github.com/rubyzip/rubyzip
+   - License text: See LICENSES file within the included source code of the dependency
+
+93. securerandom
+   - Version: 0.4.1
+   - License: Simplified BSD, ruby
+   - Author(s): Tanaka Akira
+   - URL: https://github.com/ruby/securerandom
+   - License text: See LICENSES file within the included source code of the dependency
+
+94. security
+   - Version: 0.1.5
+   - License: MIT
+   - Author(s): Josh Holtz, Mattt
+   - URL: https://github.com/fastlane-community/security
+   - License text: See LICENSES file within the included source code of the dependency
+
+95. signet
+   - Version: 0.20.0
+   - License: Apache 2.0
+   - Author(s): Google LLC
+   - URL: https://github.com/googleapis/signet
+   - License text: See LICENSES file within the included source code of the dependency
+
+96. simctl
+   - Version: 01.06.10
+   - License: MIT
+   - Author(s): Johannes Plunien
+   - URL: https://github.com/plu/simctl
+   - License text: See LICENSES file within the included source code of the dependency
+
+97. slather
+   - Version: 02.08.05
+   - License: MIT
+   - Author(s): Mark Larsen
+   - URL: https://github.com/SlatherOrg/slather
+   - License text: See LICENSES file within the included source code of the dependency
+
+98. sysrandom
+   - Version: 1.0.5
+   - License: ISC
+   - Author(s): Tony Arcieri
+   - URL: https://github.com/cryptosphere/sysrandom
+   - License text: See LICENSES file within the included source code of the dependency
+
+99. terminal-notifier
+   - Version: 2.0.0
+   - License: MIT
+   - Author(s): Eloy Duran, Julien Blanchard
+   - URL: https://github.com/julienXX/terminal-notifier
+   - License text: See LICENSES file within the included source code of the dependency
+
+100. terminal-table
+   - Version: 3.0.2
+   - License: MIT
+   - Author(s): TJ Holowaychuk, Scott J. Goldman
+   - URL: https://github.com/tj/terminal-table
+   - License text: See LICENSES file within the included source code of the dependency
+
+101. trailblazer-option
+   - Version: 0.1.2
+   - License: MIT
+   - Author(s): Nick Sutterer
+   - URL: https://trailblazer.to/
+   - License text: See LICENSES file within the included source code of the dependency
+
+102. tty-cursor
+   - Version: 0.7.1
+   - License: MIT
+   - Author(s): Piotr Murach
+   - URL: https://ttytoolkit.org
+   - License text: See LICENSES file within the included source code of the dependency
+
+103. tty-screen
+   - Version: 0.8.2
+   - License: MIT
+   - Author(s): Piotr Murach
+   - URL: https://ttytoolkit.org
+   - License text: See LICENSES file within the included source code of the dependency
+
+104. tty-spinner
+   - Version: 0.9.3
+   - License: MIT
+   - Author(s): Piotr Murach
+   - URL: https://ttytoolkit.org
+   - License text: See LICENSES file within the included source code of the dependency
+
+105. tzinfo
+   - Version: 2.0.6
+   - License: MIT
+   - Author(s): Philip Ross
+   - URL: https://tzinfo.github.io
+   - License text: See LICENSES file within the included source code of the dependency
+
+106. uber
+   - Version: 0.1.0
+   - License: MIT
+   - Author(s): Nick Sutterer
+   - URL: https://github.com/apotonick/uber
+   - License text: See LICENSES file within the included source code of the dependency
+
+107. unicode-display_width
+   - Version: 02.06.00
+   - License: MIT
+   - Author(s): Jan Lelis
+   - URL: https://github.com/janlelis/unicode-display_width
+   - License text: See LICENSES file within the included source code of the dependency
+
+108. uri
+   - Version: 1.0.3
+   - License: Simplified BSD, ruby
+   - Author(s): Akira Yamada
+   - URL: https://github.com/ruby/uri
+   - License text: See LICENSES file within the included source code of the dependency
+
+109. word_wrap
+   - Version: 1.0.0
+   - License: MIT
+   - Author(s): Radek Pazdera
+   - URL: https://github.com/pazdera/word_wrap
+   - License text: See LICENSES file within the included source code of the dependency
+
+110. xcodeproj
+   - Version: 1.27.0
+   - License: MIT
+   - Author(s): Eloy Duran
+   - URL: https://github.com/cocoapods/xcodeproj
+   - License text: See LICENSES file within the included source code of the dependency
+
+111. xcpretty
+   - Version: 0.4.1
+   - License: MIT
+   - Author(s): Marin Usalj, Delisa Mason
+   - URL: https://github.com/supermarin/xcpretty
+   - License text: See LICENSES file within the included source code of the dependency
+
+112. xcpretty-travis-formatter
+   - Version: 1.0.1
+   - License: MIT
+   - Author(s): Delisa Mason
+   - URL: https://github.com/kattrali/xcpretty-travis-formatter
+   - License text: See LICENSES file within the included source code of the dependency
+
+---
+
+This NOTICE file is for informational purposes only and does not modify the license terms of any referenced software.
