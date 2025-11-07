@@ -262,3 +262,29 @@ Task {
     }
 }
 ```
+
+### Limitations
+
+**SwiftUI string-literal `Text` isn’t auto-intercepted**
+
+SwiftUI resolves string literals via `LocalizedStringKey` (not the Foundation bundle lookup path that Phrase hooks into). As a result, `Text("my_key")` and other `LocalizedStringKey` initializers won’t automatically pick up OTA updates. Use a `String` that you obtain from `Phrase.shared.localizedString(_:)`, or use `NSLocalizedString`.
+
+**Automatic replacement targets the main bundle**
+
+Phrase’s swizzled lookups operate in the main bundle. Strings loaded from other bundles (e.g., frameworks or SPM modules) aren’t automatically replaced and may appear stale unless you resolve them explicitly via `Phrase.shared.localizedString(_:)`.
+
+**Disabling swizzling disables auto-replacement**
+If you set `PhraseSDKMainBundleProxyDisabled=YES` in `Info.plist`, OTA updates won’t appear via `NSLocalizedString` calls. Translations still sync. Access them explicitly with `Phrase.shared.localizedString(_:)` if you choose to run without swizzling.
+
+**Semantic app version required for release selection**
+The SDK selects the correct OTA release using your app version. If the version isn’t semantic, the SDK throws `PhraseSetupError.appVersionNotSemantic`. Ensure `CFBundleShortVersionString/CFBundleVersion` use semantic versioning (e.g., 1.2.3).
+
+**Updated translations are shown on the next restart by default**
+
+Translations are fetched in the background and shown on the next restart. This can be solved by applying updates immediately after [successful updates](https://github.com/phrase/ios-sdk?tab=readme-ov-file#apply-updates).
+
+
+### Tips and Suggestions
+
+- After fetching updates (e.g., by awaiting `Phrase.shared.updateTranslation()`), call `Phrase.shared.applyPendingUpdates()` and re-render affected views so that new strings appear immediately (especially in SwiftUI).
+- For module or framework resources, prefer explicit lookups with `Phrase.shared.localizedString(_:)`, or consolidate UI strings into the main bundle where feasible.
