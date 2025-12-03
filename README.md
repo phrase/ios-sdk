@@ -267,7 +267,7 @@ Task {
 
 **SwiftUI string-literal `Text` isn’t auto-intercepted**
 
-SwiftUI resolves string literals via `LocalizedStringKey` (not the Foundation bundle lookup path that Phrase hooks into). As a result, `Text("my_key")` and other `LocalizedStringKey` initializers won’t automatically pick up OTA updates. Use a `String` that you obtain from `Phrase.shared.localizedString(_:)`, or use `NSLocalizedString`.
+SwiftUI resolves string literals via `LocalizedStringKey` (not the Foundation bundle lookup path that Phrase hooks into). As a result, `Text("my_key")` and other `LocalizedStringKey` initializers like `LocalizedStringResource` won’t automatically pick up OTA updates. Use a `String` that you obtain from `Phrase.shared.localizedString(_:)`, or use `NSLocalizedString`.
 
 **Automatic replacement targets the main bundle**
 
