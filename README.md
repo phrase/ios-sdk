@@ -58,7 +58,7 @@ Phrase.shared.setup(
 
 To update localization files call `Phrase.shared.updateTranslation()`. This method will raises an exception if SDK is not correctly setup.
 
-To configure OTA to use the US data center, set the host before calling `PhraseApp.shared.updateTranslation()` with `Phrase.shared.configuration.apiHost = .us.`
+To configure OTA to use the US data center, set the host before calling `PhraseApp.shared.updateTranslation()` with `Phrase.shared.configuration.apiHost = .us`.
 
 Calling both functions within the `AppDelegate` in the `applicationDidFinishLaunchingWithOptions` method is recommended.
 
