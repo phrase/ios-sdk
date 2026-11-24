@@ -50,7 +50,7 @@ import PhraseSDK
 ```
 Phrase.shared.setup(
   distributionID: <Distribution ID>,
-  environmentSecret: <Environment Secret>
+  environmentSecret: <Environment Identifier>
 )
 ```
 
